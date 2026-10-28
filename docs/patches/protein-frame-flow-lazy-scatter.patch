@@ -1,0 +1,28 @@
+diff --git a/data/utils.py b/data/utils.py
+index 41c5726..c7daee1 100644
+--- a/data/utils.py
++++ b/data/utils.py
+@@ -7,7 +7,6 @@ import string
+ import pickle
+ import os
+ import torch
+-from torch_scatter import scatter_add, scatter
+ from Bio.PDB.Chain import Chain
+ from data import protein
+ import dataclasses
+@@ -258,6 +257,7 @@ def center_zero(pos: torch.Tensor, batch_indexes: torch.LongTensor) -> torch.Ten
+     """
+     assert len(pos.shape) == 2 and pos.shape[-1] == 3, "pos must have shape [N, 3]"
+ 
++    from torch_scatter import scatter
+     means = scatter(pos, batch_indexes, dim=0, reduce="mean")
+     return pos - means[batch_indexes]
+ 
+@@ -317,6 +317,7 @@ def align_structures(
+     reference_positions = center_zero(reference_positions, batch_indices)
+ 
+     # Compute covariance matrix for optimal rotation (Q.T @ P) -> [B x 3 x 3].
++    from torch_scatter import scatter_add
+     cov = scatter_add(
+         batch_positions[:, None, :] * reference_positions[:, :, None], batch_indices, dim=0
+     )

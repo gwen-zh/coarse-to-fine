@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scope": "Code-only collaboration publication;no model weights,derived features,research results,manuscripts,or figures.",
+  "core_tests": 32,
+  "synthetic_pipeline": "passed_without_artifacts",
+  "explicit_local_input_demo_interfaces": "passed;inputs_and_outputs_not_published",
+  "parsed_python_files": 323,
+  "credentials_scan": "no findings",
+  "third_party_patch": "retained as source"
+}

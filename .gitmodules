@@ -1,0 +1,6 @@
+[submodule "upstream/bioemu-benchmarks"]
+	path = upstream/bioemu-benchmarks
+	url = https://github.com/microsoft/bioemu-benchmarks.git
+[submodule "upstream/protein-frame-flow"]
+	path = upstream/protein-frame-flow
+	url = https://github.com/microsoft/protein-frame-flow.git
