@@ -4,3 +4,9 @@
 [submodule "upstream/protein-frame-flow"]
 	path = upstream/protein-frame-flow
 	url = https://github.com/microsoft/protein-frame-flow.git
+[submodule "third_party/par-protein"]
+	path = third_party/par-protein
+	url = https://github.com/bytedance-Seed/par-protein.git
+[submodule "third_party/par_preflight_openfold_v1"]
+	path = third_party/par_preflight_openfold_v1
+	url = https://github.com/aqlaboratory/openfold.git

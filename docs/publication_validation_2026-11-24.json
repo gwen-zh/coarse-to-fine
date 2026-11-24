@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-24",
+  "scope": "Source and progress-publication verification; no new training or quality evaluation.",
+  "previous_GitHub_main": "c702204a9e1b5c8d76de284ad08fb70a27a0976f",
+  "synchronized_source_files": 243,
+  "synchronized_Python_files_syntax_checked": 180,
+  "source_hash_replay": "All243 destination source files equal their recorded originals.",
+  "test_suites": [
+    {
+      "name": "portable core",
+      "command": "python scripts/run_core_tests.py",
+      "tests": 32,
+      "exit_code": 0
+    },
+    {
+      "name": "PAR mathematical/interface controls",
+      "command": "python -m unittest discover -s upstream/tests -p 'test_par*.py' -v",
+      "tests": 33,
+      "exit_code": 0
+    },
+    {
+      "name": "continuous representation and ensemble interfaces",
+      "patterns": [
+        "test_block_local_frames.py",
+        "test_block_stable_frame_tokenizer.py",
+        "test_sequence_multiscale_ensemble.py",
+        "test_explicit_coarse_fine_flow.py",
+        "test_native_ensemble_metrics.py"
+      ],
+      "tests": 24,
+      "exit_code": 0
+    }
+  ],
+  "total_tests_passed": 89,
+  "new_submodules_initialized_at_pinned_commits": true,
+  "README_local_links_checked": 9,
+  "JSON_documents_valid": true,
+  "git_diff_check": {
+    "unrestricted_status": "Three inherited blank-line-at-EOF warnings in frozen source copies.",
+    "preserved_exactly_for_source_hash_replay": [
+      "upstream/experiments/par_coarse_training_fit.py:70",
+      "upstream/experiments/run_hierarchical_ensemble_cpu.py:169",
+      "upstream/experiments/run_hierarchical_ensemble_cpu_v2.py:190"
+    ],
+    "resolution": "Keep historical sources byte-identical; check all other whitespace using a command-scoped core.whitespace=-blank-at-eof setting."
+  },
+  "clean_environment_install_tested": false,
+  "raw_artifacts_uploaded": false,
+  "files": {
+    "README.md": "eba5cf5c5a019dad609506de36379e9a24311d337105314d572201930a4ba481",
+    "docs/RESEARCH_STATUS.rst": "91e17fadfd38a10cb913bb3f309cdf7c29e8c6c39d7a11d9a029bc4f08de8b73",
+    "docs/PROGRESS_2026-11-24_ZH.rst": "72ee54292fb574eeffc665274b2ff69a4e86366143a2718ea454c4183011c90c",
+    "docs/PAR_REPRODUCTION.rst": "1ae7bd92c78661dba6d85bc0bd77834c8ba6c1a458a1c947bfd85c9428d0632b",
+    "docs/progress_2026-11-24.json": "bf62f42a4765cfccb8acba92942c66f40ab989e9a08912abd7710d99af8104f9",
+    "docs/source_sync_2026-11-24.json": "34fb84c9c3777931fe263d83a591d206fdf0de725fe7cbd795689df9e6f0d712"
+  }
+}

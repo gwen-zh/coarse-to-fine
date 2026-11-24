@@ -16,3 +16,20 @@ Optional pinned submodules retain their own licenses and data terms:
 * microsoft/protein-frame-flow:
   f50d8dbbdae827be291e9f73d732b61b195f8816 (LICENSE).
   A compatibility patch is included under docs/patches/.
+
+The optional PAR coarse-transfer pilot pins two additional repositories:
+
+* bytedance-Seed/par-protein:
+  92d1c3ecc9822f897b66d53b3852059e6750aee2 (LICENSE).
+* aqlaboratory/openfold:
+  be2ec1841f16c966c65ae0e7599ebbadc725757d (LICENSE).
+
+Both are recorded as submodules under third_party/. Their upstream source is
+unmodified. Project-local, configuration-checked guards for inactive OpenFold
+branches live in upstream/experiments/par_coarse_backbone.py; they raise if an
+unsupported active branch is requested. This is not a replacement for active
+OpenFold operators or permission to ignore the upstream projects' licenses.
+
+PAR weights are obtained separately from the public ByteDance-Seed/PAR model
+repository at revision 7fb609346f5d9a2baa76add1f387aee1bdb8874b. Neither model
+weights nor training datasets are redistributed with this source update.

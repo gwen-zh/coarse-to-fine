@@ -1,0 +1,1223 @@
+{
+  "date": "2026-11-24",
+  "target_repository": "https://github.com/gwen-zh/coarse-to-fine",
+  "copied_files": 243,
+  "files": [
+    {
+      "path": "upstream/experiments/aa_structural_coarse_condition.py",
+      "sha256": "298bf195e4a8ddf768db3c6dcfcb899b5fde56a31d6805a25a12932796ecae27",
+      "bytes": 3019
+    },
+    {
+      "path": "upstream/experiments/acquire_par_coarse_backbone.py",
+      "sha256": "9e95f2bc48994fbd1215f551e86f21d1dcd137f71e844e70e7c1e95faac701ff",
+      "bytes": 2002
+    },
+    {
+      "path": "upstream/experiments/analyze_atlas_flow_geometry.py",
+      "sha256": "f8f64c078c76de7004586b3c23eb082f7abd5be6442052cc0a36c2e9cc7916a1",
+      "bytes": 5813
+    },
+    {
+      "path": "upstream/experiments/atlas_decoder_repair.py",
+      "sha256": "ac58fc8ba6a36db551d939ca1742e7b3a50f50676719e36a9b2fbfa547de92b7",
+      "bytes": 3128
+    },
+    {
+      "path": "upstream/experiments/atlas_md_io.py",
+      "sha256": "323257a38d1be95ff3fcba98142247f1eac5a517e9a95572563157900351aa6b",
+      "bytes": 2783
+    },
+    {
+      "path": "upstream/experiments/atlas_shared_frame.py",
+      "sha256": "e92dd8ff683538c68e82be2c36784c449c4ba65f25bb08f637a4d0dc4ea969a1",
+      "bytes": 1826
+    },
+    {
+      "path": "upstream/experiments/audit_atlas_md_reconstruction.py",
+      "sha256": "dce89116155d1bfa2badb2fe0c7a1032704c8e1a9ffcbbe4e40e134d3de8d234",
+      "bytes": 6340
+    },
+    {
+      "path": "upstream/experiments/audit_atlas_shared_frame.py",
+      "sha256": "046dc1e86199fad007fd8afa3166fc45fa3ee930481f73363b76387854777397",
+      "bytes": 4468
+    },
+    {
+      "path": "upstream/experiments/audit_block_centroid_transport_frames.py",
+      "sha256": "53518b022a49dd7c12bcb18c79f40e06c0a66eaa0fe4becb437887b22090c9aa",
+      "bytes": 2463
+    },
+    {
+      "path": "upstream/experiments/audit_block_transport_frames.py",
+      "sha256": "1ecc970218b689d9f4486d38847b84ddb1fab2c758c6dd3f1a9b404d9e1455d8",
+      "bytes": 2863
+    },
+    {
+      "path": "upstream/experiments/audit_continuous_fine_geometry.py",
+      "sha256": "8a7ae1dcaf7afbf2b0d7c2c5018cd0a621dfbaecb4770929f22ce1b32f80155b",
+      "bytes": 4708
+    },
+    {
+      "path": "upstream/experiments/audit_current_representation.py",
+      "sha256": "e8d53b184a31b645da50320f4eacd0212155fc27100efa86a6f2f649aeb1e78a",
+      "bytes": 9790
+    },
+    {
+      "path": "upstream/experiments/audit_decoder_latent_inputs.py",
+      "sha256": "5165c20f75ff9196fcc4a254f51ec20dd4db3c7b55e7f5da3611b5b0ab01c682",
+      "bytes": 2375
+    },
+    {
+      "path": "upstream/experiments/audit_fine_coarse_condition.py",
+      "sha256": "4046bf1cf67fd14ac7355cf0b28323954213f7b0ebe492e689847354a9f3fdbb",
+      "bytes": 11261
+    },
+    {
+      "path": "upstream/experiments/audit_fine_condition_path.py",
+      "sha256": "2960f9fb53126fb9292a8248198a4d41127c561d8e8ead45c23c2a776c2f0e31",
+      "bytes": 7226
+    },
+    {
+      "path": "upstream/experiments/audit_fine_state_coverage.py",
+      "sha256": "ac06ce9310ca8e71514186637466cd82e87b76a2e2d6fea0acaa068ce53dd6fd",
+      "bytes": 5355
+    },
+    {
+      "path": "upstream/experiments/audit_fine_state_difference.py",
+      "sha256": "84767a96c45123e0a4606eb7f2b41e44cc288d5e9045f330a1837e882ab76e07",
+      "bytes": 6309
+    },
+    {
+      "path": "upstream/experiments/audit_multiframe_early_updates.py",
+      "sha256": "2a2ff5480de9ebcd36a2621c62b9bdd29ce7f1c9c7b199eb25aa77e965da917c",
+      "bytes": 4283
+    },
+    {
+      "path": "upstream/experiments/audit_par_coarse_chirality.py",
+      "sha256": "3b36eb9b4489a87f8af044bcc0afb81c4f882a9ebad03306ec74b96900d128ba",
+      "bytes": 12097
+    },
+    {
+      "path": "upstream/experiments/benchmark_par_coarse_cpu.py",
+      "sha256": "62f5523b0e02d5a3df172d984ed9b3448774e3ed52ed7e792f07e2a675753240",
+      "bytes": 2462
+    },
+    {
+      "path": "upstream/experiments/block_centroid_transport_frames.py",
+      "sha256": "ed6407dadf3fe42f6e463abfde73e3cc5631f7f0d89bf06705bac1366d8096d1",
+      "bytes": 1975
+    },
+    {
+      "path": "upstream/experiments/block_frame_tokenizer.py",
+      "sha256": "db82370db2f2d74e302dbc3290c6ad41a3d2c035c7480bbcc8c0d11a743797ea",
+      "bytes": 3983
+    },
+    {
+      "path": "upstream/experiments/block_local_frames.py",
+      "sha256": "cbbd157c52bda7c85255e92be5648c103a519cdaf9e59404e37b77329eb42e7d",
+      "bytes": 3679
+    },
+    {
+      "path": "upstream/experiments/block_stable_frame_tokenizer.py",
+      "sha256": "bb88b4abe4020abd63723e397c32aee8fb24552980c28e7e0e53073f067aa469",
+      "bytes": 1686
+    },
+    {
+      "path": "upstream/experiments/block_transport_frames.py",
+      "sha256": "a9fee6320798017b11c88f866bf7340dcd5bd73143aa61bc58a68f2716a64520",
+      "bytes": 1582
+    },
+    {
+      "path": "upstream/experiments/cache_multisequence_sequence_features.py",
+      "sha256": "faa2394def99fe92a7fb7493d8b53034d32ff92371bdc27aa51970ac73848e4e",
+      "bytes": 4444
+    },
+    {
+      "path": "upstream/experiments/cache_multisequence_sequence_features_compat.py",
+      "sha256": "6745c00e983150d18ff1f244e6563df0b513ac4616dd1b980d90c623c265d290",
+      "bytes": 1455
+    },
+    {
+      "path": "upstream/experiments/coarse_coverage_mechanism.py",
+      "sha256": "d9cb78dda7206292a900d3bc8b8ac3d496217cf7dfc525bb6c88d6c08b42636e",
+      "bytes": 6643
+    },
+    {
+      "path": "upstream/experiments/coarse_coverage_repair.py",
+      "sha256": "3653510c34aca71eb15be441c1a8f7d891cd492d5e97febb2724e5d5fad48f89",
+      "bytes": 4342
+    },
+    {
+      "path": "upstream/experiments/coarse_few_target_flow.py",
+      "sha256": "90d55a29ea5047bd18a3a5f78f58812856e94ae391708f45fa80d4769340740d",
+      "bytes": 3111
+    },
+    {
+      "path": "upstream/experiments/coarse_full_cohort_evaluation.py",
+      "sha256": "ffdbc3e4cb4829612a43b2f78c546ebe3ba0c62ccbdea7bdbe128ffd3e387eb0",
+      "bytes": 8697
+    },
+    {
+      "path": "upstream/experiments/coarse_full_cohort_flow.py",
+      "sha256": "47269fe1b95d09ef5125ba37f0d293359bcd8035d4af59b23fb522038bdadeaa",
+      "bytes": 2004
+    },
+    {
+      "path": "upstream/experiments/coarse_generation_diagnostic.py",
+      "sha256": "0673961883b88463b819694fc9e5777825f5519f3097dbc8e362059d05a65fd1",
+      "bytes": 5792
+    },
+    {
+      "path": "upstream/experiments/coarse_relative_geometry.py",
+      "sha256": "5a36d153a02e0c37bbca1911dabd7b3b39f3ea2d318da89e49ec30547be55467",
+      "bytes": 6992
+    },
+    {
+      "path": "upstream/experiments/coarse_target_scaling.py",
+      "sha256": "c3af9a80edc91a966d2355385d6ea0496b18021e33f2a3292fc18851de5889e5",
+      "bytes": 2797
+    },
+    {
+      "path": "upstream/experiments/compact_training_trace.py",
+      "sha256": "1b4e7dc364f2ced94e33f9140f663f1d77d0a7b5a7c18c0a1d89b2981be864fd",
+      "bytes": 1956
+    },
+    {
+      "path": "upstream/experiments/compare_hierarchical_ensemble.py",
+      "sha256": "9710d627e5e9759e90184b932219b4e3f2bda82dd0c632fdb748af77351c6d58",
+      "bytes": 8943
+    },
+    {
+      "path": "upstream/experiments/confirm_atlas_md.py",
+      "sha256": "721ae5092e73c4a415f8ae972a303116184a789a537f4979fa57d87391f131cc",
+      "bytes": 10820
+    },
+    {
+      "path": "upstream/experiments/decoder_angle_adaptation.py",
+      "sha256": "64e11b58166e2c165abe07fc214168b86811f533ac1be2b794541f5cdd375827",
+      "bytes": 3777
+    },
+    {
+      "path": "upstream/experiments/decompose_atlas_md_reconstruction.py",
+      "sha256": "c2e70fb8fca5f43a7d51823cfe78a505eae6fbea1a69ba19ff77582c816a7ef1",
+      "bytes": 4695
+    },
+    {
+      "path": "upstream/experiments/early_time_fine_flow.py",
+      "sha256": "b7d4546d15006c6a08cab40a1510e4b15d82b7a04647c7bd028c38bfe1a2fbcf",
+      "bytes": 1690
+    },
+    {
+      "path": "upstream/experiments/explicit_coarse_fine_flow.py",
+      "sha256": "3c00fa1bf00b52b8df784d55c7e90bec47dfaa3917178f4310f6c488ae551c3c",
+      "bytes": 3111
+    },
+    {
+      "path": "upstream/experiments/few_target_flow.py",
+      "sha256": "c018019d646fd18a661252842c11664ca681cfb7ed7a9939adf6b9893d97482c",
+      "bytes": 745
+    },
+    {
+      "path": "upstream/experiments/fine_coarse_use.py",
+      "sha256": "a8ffed900847f9eaf039d1c14012008f40cd2221b52eea15ac66bd119a803332",
+      "bytes": 2256
+    },
+    {
+      "path": "upstream/experiments/fine_geometry_flow.py",
+      "sha256": "8b6b45ad3e04ba59860a6ae6b25af0ee1e1d84c1ac79501c7188570d28476d87",
+      "bytes": 3856
+    },
+    {
+      "path": "upstream/experiments/fine_geometry_flow.rst",
+      "sha256": "aa20b8ddf4b802f296a4cc27661901e832f01e2390a85076e580569bb64572df",
+      "bytes": 2808
+    },
+    {
+      "path": "upstream/experiments/generator_curriculum.py",
+      "sha256": "1560c77403b2740f9780a03dc33566d33f90a50a1391fde59e0883a39ef93a17",
+      "bytes": 2785
+    },
+    {
+      "path": "upstream/experiments/generator_curriculum.rst",
+      "sha256": "c07e9b697df19a589970f7d3dc1d99c7b659d0aa4b8e7dda2bbba40218a525d8",
+      "bytes": 2510
+    },
+    {
+      "path": "upstream/experiments/hierarchical_ensemble_flow.py",
+      "sha256": "815182b43d376006874ab239bd8b2e2249212290757e7ab66220179ec4160ec8",
+      "bytes": 9300
+    },
+    {
+      "path": "upstream/experiments/hierarchical_ensemble_flow.rst",
+      "sha256": "84c821dec42ffb644a3c5a650a7ecb0d8ec37b14dd9d01ca1d86164c111bec63",
+      "bytes": 2867
+    },
+    {
+      "path": "upstream/experiments/joint_sequence_predictor.py",
+      "sha256": "d30a0e4139135393bfa94a8fc774615e8a02d66ef7507f21b1fa8048eb421a78",
+      "bytes": 5218
+    },
+    {
+      "path": "upstream/experiments/joint_sequence_predictor.rst",
+      "sha256": "5fcbe940d6dd0feb44f77aa3563a210ae362143e526895965adf748cec19c055",
+      "bytes": 2210
+    },
+    {
+      "path": "upstream/experiments/latent_source_diagnostic.py",
+      "sha256": "d00505955336a1f8796019062edc4b00c0c429a83f8004afee701b40ed21e28d",
+      "bytes": 4742
+    },
+    {
+      "path": "upstream/experiments/multiscale_flow_solver.py",
+      "sha256": "754f4db67be7507fef3f2315a29c7bfa94724a1c67455aa6b47ec536bac25e7d",
+      "bytes": 1757
+    },
+    {
+      "path": "upstream/experiments/multisequence_ensemble_flow.rst",
+      "sha256": "acacdc46f4fdfca3bd005606e8a9a2d95703e00c7175e293184b1a1b6c266e88",
+      "bytes": 4158
+    },
+    {
+      "path": "upstream/experiments/multisequence_flow_data.py",
+      "sha256": "5d5540819e3b3ab41c71abbc8e2ce7cdb4d6d04da00659087f4d95a23c89e530",
+      "bytes": 2938
+    },
+    {
+      "path": "upstream/experiments/native_ensemble_metrics.py",
+      "sha256": "bd522d00eee520f8d0804474a793c04a85554d0930b47ccaade23d3a20332a1a",
+      "bytes": 4409
+    },
+    {
+      "path": "upstream/experiments/par_coarse_backbone.py",
+      "sha256": "b4a8113041b20ae9ac623740dcce21a4dc9f0a1c0808b6764eefaf5a36b55146",
+      "bytes": 8506
+    },
+    {
+      "path": "upstream/experiments/par_coarse_capacity.py",
+      "sha256": "f0b56c5579f250924fd0c6939fa00537678e9513068e355c7da65c7c2ca2f32a",
+      "bytes": 6294
+    },
+    {
+      "path": "upstream/experiments/par_coarse_training_fit.py",
+      "sha256": "a9f267f9ce8b49bc2f6eccfb2a94f56d67e84375703de798077a68b4e18088c3",
+      "bytes": 3881
+    },
+    {
+      "path": "upstream/experiments/par_coarse_transfer.py",
+      "sha256": "bf868ab91bee90fa880569cc01e36f2f6fa47217800c44bdc82b3e76e49b40cb",
+      "bytes": 4601
+    },
+    {
+      "path": "upstream/experiments/par_signed_volume.py",
+      "sha256": "9ea520220c6f1370f077f9943f908b2403774eb316fe549915158bc32fb5e527",
+      "bytes": 6406
+    },
+    {
+      "path": "upstream/experiments/par_signed_volume_replication.py",
+      "sha256": "f176309453099bcd39457ccf48f32eacfcdba6cfcd65f77c3e76aa139274881c",
+      "bytes": 492
+    },
+    {
+      "path": "upstream/experiments/par_two_protein_continuation.py",
+      "sha256": "d791bbf17d512cb1e553779537a3b09d1b72ce7f564887a5bd941c6bb2345c5c",
+      "bytes": 1764
+    },
+    {
+      "path": "upstream/experiments/par_two_protein_fit.py",
+      "sha256": "925643bb99c48286a5f0f90452e1965003a2f822efd9d41df4802ee80a1545cb",
+      "bytes": 3742
+    },
+    {
+      "path": "upstream/experiments/plot_aa_structural_coarse_condition_v2.py",
+      "sha256": "f18627bee7c302aaa49e2368c2c96476470565cbc243958291910a3587678b63",
+      "bytes": 2541
+    },
+    {
+      "path": "upstream/experiments/plot_atlas_decoder_repair.py",
+      "sha256": "b0e39dad26a595cdc1da1c5964f86e12227b5532b62a034f95ec2f519169895a",
+      "bytes": 2807
+    },
+    {
+      "path": "upstream/experiments/plot_atlas_frame_comparison.py",
+      "sha256": "6d1e20661e75757499ec9456117e82095e2264699184b3ba8c73a137a9aa9c80",
+      "bytes": 4869
+    },
+    {
+      "path": "upstream/experiments/plot_block_frame_probe.py",
+      "sha256": "3d00b5bec6bbd3968307efd4b0ba3f564f8af2c38488d40bb7331951d5f6300b",
+      "bytes": 3020
+    },
+    {
+      "path": "upstream/experiments/plot_fine_eight_targets.py",
+      "sha256": "fa1b9f60763a54c1899cac8062be4f0e5dd1038a9aba209c122733c5ed6e3687",
+      "bytes": 2896
+    },
+    {
+      "path": "upstream/experiments/plot_fine_state_difference.py",
+      "sha256": "a8cc92180028aa3e3195081ee344e17f4d1092363dbf38dcc36bf8a7ff1b8d9e",
+      "bytes": 2188
+    },
+    {
+      "path": "upstream/experiments/plot_hierarchical_ensemble_probe.py",
+      "sha256": "76f4da37aab225003c30eb82bb37ac73506824ec1349aede83b1c48d0db74239",
+      "bytes": 5259
+    },
+    {
+      "path": "upstream/experiments/plot_latent_source_diagnostic.py",
+      "sha256": "314fd15cde70f88fa808766e3e9bd270425ec55be8f97761711ddd4a0251ce47",
+      "bytes": 2838
+    },
+    {
+      "path": "upstream/experiments/plot_multiscale_solver_probe.py",
+      "sha256": "822c833c4f7a9467f6587b0f9380d9b5f058a3ce4fee89111d4043ff6f71d1ad",
+      "bytes": 2869
+    },
+    {
+      "path": "upstream/experiments/plot_sequence_multiscale_ensemble.py",
+      "sha256": "94c83a0046ebc11a0b4a3df49da3fab09135f589a8aa515e5655e56d9a89f3ea",
+      "bytes": 4865
+    },
+    {
+      "path": "upstream/experiments/preflight_par_coarse_backbone.py",
+      "sha256": "baa12d33bc0a0b9d15779ae3c5d953fc4df349a1198d6b9d59fd55a5ec619ab8",
+      "bytes": 8455
+    },
+    {
+      "path": "upstream/experiments/prepare_atlas_md_pilot.py",
+      "sha256": "eea1b5ae222f3b2cf546fb068678c57fb348cdc93e26b88e487f5119eef56dc3",
+      "bytes": 7428
+    },
+    {
+      "path": "upstream/experiments/prepare_hierarchical_ensemble_probe.py",
+      "sha256": "bc4871ba4998932513972711e44059aae6e7eea6421312c707fe0fe0ed304b46",
+      "bytes": 5502
+    },
+    {
+      "path": "upstream/experiments/prepare_multisequence_atlas.py",
+      "sha256": "4cc9bef3c9b68c791bd0bb2ca92b5c198885193cc62ab2664c3297f8bce0dd27",
+      "bytes": 10641
+    },
+    {
+      "path": "upstream/experiments/report_aa_structural_coarse_condition.py",
+      "sha256": "29162dd0052e4dfe3e8a041666aa6af8984148940d5fdeddb12693d496beecfd",
+      "bytes": 4997
+    },
+    {
+      "path": "upstream/experiments/report_author_codec_interface.py",
+      "sha256": "2b19990f8412d259332d07d47116fab47f2aaf62ca1dbdff74699beb9d17f27e",
+      "bytes": 5727
+    },
+    {
+      "path": "upstream/experiments/report_decoder_angle_adaptation.py",
+      "sha256": "8af13e2d07d6210806a0af28ad3526652e62d147c96ae6d3f0b4b80f659d4c4c",
+      "bytes": 5438
+    },
+    {
+      "path": "upstream/experiments/report_fine_coarse_use.py",
+      "sha256": "318e4c7fc6e9efc481d034a6d242e56ea63001bb065b0099bb6899aaea5ca541",
+      "bytes": 7071
+    },
+    {
+      "path": "upstream/experiments/report_fine_geometry_flow.py",
+      "sha256": "42f9d6563057abf318aa4c797d05173ddf54dad48977c83d4a8a6b67cf1cbf04",
+      "bytes": 8289
+    },
+    {
+      "path": "upstream/experiments/report_generator_curriculum.py",
+      "sha256": "cf207588d27e9385240ea88cfd7c462faeae4d80df949a4a9510cf0a1ac29351",
+      "bytes": 5708
+    },
+    {
+      "path": "upstream/experiments/report_latent_source_diagnostic.py",
+      "sha256": "493a1d3bc61d36c08f39e7fd1d779d4bf5eb5bba88717459b3e2705496e7412e",
+      "bytes": 6253
+    },
+    {
+      "path": "upstream/experiments/report_multisequence_ensemble_flow.py",
+      "sha256": "739958a7e6baade8b9ea2e1c74216d24e34ba3430b7b6c8d874ed938a75a33db",
+      "bytes": 5651
+    },
+    {
+      "path": "upstream/experiments/report_par_coarse_capacity.py",
+      "sha256": "29b4ba29010160d68633bb99d29076cc594ace497ece6a4759ba62e7c3ee06e7",
+      "bytes": 9950
+    },
+    {
+      "path": "upstream/experiments/report_par_coarse_training_fit.py",
+      "sha256": "d887a2d8fb7052d3d678c18b421b040b0be646881c98ad06f0a784500a7bdbd9",
+      "bytes": 7217
+    },
+    {
+      "path": "upstream/experiments/report_par_coarse_transfer.py",
+      "sha256": "85a321eaf1820644301b088942be822cd10323545d42cbd76c9723eb5dfe22b1",
+      "bytes": 4975
+    },
+    {
+      "path": "upstream/experiments/report_par_two_protein_continuation.py",
+      "sha256": "ab0532c02c55a7a56fca0ec899605e29b9210dfaf4819d1f82277851c0c53a1b",
+      "bytes": 8835
+    },
+    {
+      "path": "upstream/experiments/report_par_two_protein_fit.py",
+      "sha256": "e7b7a5743c9f7f3c61ca501db0d2d3456176a6cdf49434b789dbc2e240325b3d",
+      "bytes": 9651
+    },
+    {
+      "path": "upstream/experiments/report_sequence_condition_probe.py",
+      "sha256": "d189f39873bf754a382f847b0e0d00c25d1e5d011d052c670f5f385c1082497f",
+      "bytes": 5840
+    },
+    {
+      "path": "upstream/experiments/review_par_coarse_cpu_transfer.py",
+      "sha256": "07369ed4fbeaae792db93566dd586a534f687e835e8ecef2e8e8a9377797b274",
+      "bytes": 6690
+    },
+    {
+      "path": "upstream/experiments/run_aa_structural_coarse_condition.py",
+      "sha256": "fe340b55bbb967e280fe4e4a5dbca58af334432d3f42b5bb6f29c72ba963bf94",
+      "bytes": 14889
+    },
+    {
+      "path": "upstream/experiments/run_atlas_decoder_repair.py",
+      "sha256": "bdac6634369277402b81a8c06473735fcc38a17cdfb05dbce91755ed88a2638b",
+      "bytes": 16610
+    },
+    {
+      "path": "upstream/experiments/run_atlas_ensemble_flow.py",
+      "sha256": "e1b88346e4a5ca9dab6cad5a5728a7700eb3c73f3664e14d61900ba87465e3ee",
+      "bytes": 14881
+    },
+    {
+      "path": "upstream/experiments/run_atlas_shared_frame_flow.py",
+      "sha256": "81d01f4aa78ed7abb68fe985667065eba559245b33b003f791f87f8e0e9c95ea",
+      "bytes": 6785
+    },
+    {
+      "path": "upstream/experiments/run_author_codec_interface.py",
+      "sha256": "75a42f982389464aaeae5b44c53c019a5328cae01a31f5c0cc63a023e666f915",
+      "bytes": 13902
+    },
+    {
+      "path": "upstream/experiments/run_block_frame_full_pdb.py",
+      "sha256": "ea99eda226e4523492e95e8f56df81b03597d03dc33ad7154cf55e8cd17a4e00",
+      "bytes": 6640
+    },
+    {
+      "path": "upstream/experiments/run_block_frame_probe.py",
+      "sha256": "9f44e05fa34a94da2e87ddc1e504f70a3b4b35e1a16f5065944436c4e366aa8d",
+      "bytes": 15727
+    },
+    {
+      "path": "upstream/experiments/run_block_stable_frame_probe.py",
+      "sha256": "67bbe004a3ad04502dbe8114c34492482332f25f1f0dfad1b706dbdc404859b1",
+      "bytes": 4983
+    },
+    {
+      "path": "upstream/experiments/run_coarse_coverage_mechanism.py",
+      "sha256": "2e9240db4c3d4ddc4b376111947433aabbae9b6bd80c5de3ba1dea73f7fb9916",
+      "bytes": 25073
+    },
+    {
+      "path": "upstream/experiments/run_coarse_coverage_repair.py",
+      "sha256": "d85383908df0275e42f2a6c44aeaa7856a1117c6f7b09af59289fcdd0acca75b",
+      "bytes": 23699
+    },
+    {
+      "path": "upstream/experiments/run_coarse_few_targets.py",
+      "sha256": "a86d3713d38f6031c9d46dbee095e8c6fd4431e99479e7e5cb62dc97cd6601f9",
+      "bytes": 26419
+    },
+    {
+      "path": "upstream/experiments/run_coarse_full_cohort.py",
+      "sha256": "65c8dda20183dd1a15d739f3dea666209f738c0d5706c2e8fcc5c54523f73b88",
+      "bytes": 32378
+    },
+    {
+      "path": "upstream/experiments/run_coarse_generation_diagnostic.py",
+      "sha256": "2fd3c80d32eaa78ce480846376f2e69daa49f056553b6a35bc8dd862aab36344",
+      "bytes": 19281
+    },
+    {
+      "path": "upstream/experiments/run_coarse_relative_geometry.py",
+      "sha256": "07116286b231713c6ab20e94898a1a9513883a872e316b99561f3652a5f02ec3",
+      "bytes": 23425
+    },
+    {
+      "path": "upstream/experiments/run_coarse_target_scaling.py",
+      "sha256": "7a93e942a85c00d54ae1ecf1d5faa52c73d26e52217451e1dca5bbd369d8c3bd",
+      "bytes": 25933
+    },
+    {
+      "path": "upstream/experiments/run_decoder_angle_adaptation.py",
+      "sha256": "9907d08f64b30cd0c2cf8320ff09382bb4424c9c4874829ed3d493795e4a50a6",
+      "bytes": 20068
+    },
+    {
+      "path": "upstream/experiments/run_early_time_fine_flow.py",
+      "sha256": "b71bff0f9864c9f7ff0a5a64d8898ed646ade827bfa6b2e524cff954233fff14",
+      "bytes": 11706
+    },
+    {
+      "path": "upstream/experiments/run_explicit_coarse_fine.py",
+      "sha256": "668339fad40b07558165abe47d77ad8d341b677ae40f1fff54907f7c996547f6",
+      "bytes": 15009
+    },
+    {
+      "path": "upstream/experiments/run_fine_coarse_use.py",
+      "sha256": "668736699ffdde70c05cc5ab4397533ecd83c044e485bc71640e4ad754473074",
+      "bytes": 13947
+    },
+    {
+      "path": "upstream/experiments/run_fine_few_targets.py",
+      "sha256": "bc9d6106e200df6f55b9694313418f1e94433278ad4f1d9a1fee472005005a15",
+      "bytes": 12783
+    },
+    {
+      "path": "upstream/experiments/run_fine_geometry_flow.py",
+      "sha256": "24e0c1c6d6ecf87e56870713edea8372cc323f9aff612e167dc19e7ae9d9e774",
+      "bytes": 16302
+    },
+    {
+      "path": "upstream/experiments/run_fine_latent_range.py",
+      "sha256": "653c19fda549df2ee967adae74fc7343c8aa4804db6fe3d11a23ff5e85c77711",
+      "bytes": 7585
+    },
+    {
+      "path": "upstream/experiments/run_fine_single_structure.py",
+      "sha256": "b4e9ce8b21f242e7865af21bbf2dc63359aafcda7b30924bddd79de30464e625",
+      "bytes": 13731
+    },
+    {
+      "path": "upstream/experiments/run_fine_target_scaling.py",
+      "sha256": "1ee048e0e20d2e0c74800197136a065f808c76b42d116d5d5588eb45c520bd91",
+      "bytes": 14775
+    },
+    {
+      "path": "upstream/experiments/run_fine_two_state.py",
+      "sha256": "c19fc661ce3cf6df2aa5f98260b010bf53055286f48f59f10628cf99009a1f73",
+      "bytes": 11961
+    },
+    {
+      "path": "upstream/experiments/run_generator_curriculum.py",
+      "sha256": "3a443366e9a122f48e8ef69558c8c7770a919850e16024824efbb5dfa9c49bce",
+      "bytes": 13576
+    },
+    {
+      "path": "upstream/experiments/run_hierarchical_ensemble_cpu.py",
+      "sha256": "5f7422059ca63a291de521704777c2957ccecd7c3ed94b4ffca35c4afe675d39",
+      "bytes": 11799
+    },
+    {
+      "path": "upstream/experiments/run_hierarchical_ensemble_cpu_v2.py",
+      "sha256": "91356b827739fcec448871c3e3d2a8016f75cae9ebbe809f96d3eb783f8d5dae",
+      "bytes": 13720
+    },
+    {
+      "path": "upstream/experiments/run_hierarchical_ensemble_probe.py",
+      "sha256": "e493d64b8585c2c6bca4f2af69fe3e5270703aa85346ac0947145ba0de8f0fda",
+      "bytes": 10259
+    },
+    {
+      "path": "upstream/experiments/run_latent_source_diagnostic.py",
+      "sha256": "26948774e0894ab9e72474bf09f6b4e250e62da036985a6ad8862ca2954b011f",
+      "bytes": 10002
+    },
+    {
+      "path": "upstream/experiments/run_multiframe_coarse_context.py",
+      "sha256": "e454ba38c719a96ba7efca0e0a593431082dbc76c396c5a52af573ddab9c509d",
+      "bytes": 26965
+    },
+    {
+      "path": "upstream/experiments/run_multiframe_early_fine.py",
+      "sha256": "5769f224e2803477961bb3bb3f5bfc641132be840cb1335d14d337fe595884bf",
+      "bytes": 27902
+    },
+    {
+      "path": "upstream/experiments/run_multiframe_fine_convergence.py",
+      "sha256": "92e7125596a742d2171dbafbabf4f2ff979bc2c495a3e5eb6dfac1bedaf7906b",
+      "bytes": 19326
+    },
+    {
+      "path": "upstream/experiments/run_multiscale_solver_probe.py",
+      "sha256": "c33819a3c07b2c35caed263d37d1e9ecce46f1b907b15e024f7b815f7174f4dc",
+      "bytes": 8296
+    },
+    {
+      "path": "upstream/experiments/run_multisequence_ensemble_flow.py",
+      "sha256": "482237738091e59067d2ba0223a10e54c7db140916b2315e507e36d3d18b0e8d",
+      "bytes": 19577
+    },
+    {
+      "path": "upstream/experiments/run_par_coarse_capacity.py",
+      "sha256": "a8c7b5e6e914f6a31e6103c98f7d29d01e61c26e8dfe803644e802f3192f44f9",
+      "bytes": 20264
+    },
+    {
+      "path": "upstream/experiments/run_par_coarse_cpu_transfer.py",
+      "sha256": "01efeee3e4224f4e8f3fd27793225b68a0e22958f3647360b9ea756b11f00c84",
+      "bytes": 11234
+    },
+    {
+      "path": "upstream/experiments/run_par_coarse_training_fit.py",
+      "sha256": "61132e108346d37406dd063ee87fdb0190719262ed26c9a789241beefdbcf5c7",
+      "bytes": 15221
+    },
+    {
+      "path": "upstream/experiments/run_par_coarse_transfer.py",
+      "sha256": "838b226609d50e8c99ed995cbe8f0ad90e0d0b1dea74ccc2d2e1b077c948d154",
+      "bytes": 16326
+    },
+    {
+      "path": "upstream/experiments/run_par_signed_volume.py",
+      "sha256": "cf3cf9fc3415d7819fbdd010d919bedd920c75bf9ecebb53c9b182a7185d34ee",
+      "bytes": 20394
+    },
+    {
+      "path": "upstream/experiments/run_par_signed_volume_replication.py",
+      "sha256": "af72689c64f546f7a5cf3b1a3f9882d03d44305830f1d3abcf56f21e0d042bb5",
+      "bytes": 19404
+    },
+    {
+      "path": "upstream/experiments/run_par_two_protein_continuation.py",
+      "sha256": "4de6374d5c0347eb0eda2505e9e13fa3f197c3211f612f315ebd0b0a61eacdf3",
+      "bytes": 13850
+    },
+    {
+      "path": "upstream/experiments/run_par_two_protein_fit.py",
+      "sha256": "21c029e6d89f173e17753a75fc2cea6024382f5f585797921d7d3c39fe012622",
+      "bytes": 14222
+    },
+    {
+      "path": "upstream/experiments/run_sequence_condition_probe.py",
+      "sha256": "ec417252b68435f5e279e25d120c52fe69b47195117306caf47eb96baef1996f",
+      "bytes": 9733
+    },
+    {
+      "path": "upstream/experiments/run_sequence_multiscale_ensemble.py",
+      "sha256": "0b26fca9f3479ba6e48872f512fc93b299010af7478f769350de6311d357b7c9",
+      "bytes": 22912
+    },
+    {
+      "path": "upstream/experiments/sequence_condition_probe.rst",
+      "sha256": "192aa81cf791e4eaa5473469b99babc63f75bbec91382eccdcd8cf211db5a128",
+      "bytes": 2615
+    },
+    {
+      "path": "upstream/experiments/sequence_feature_ensemble_flow.py",
+      "sha256": "858cdd26ee45fc0e6212075aca2a0f5881be70e1ca091427e2fcdceb40df641c",
+      "bytes": 2510
+    },
+    {
+      "path": "upstream/experiments/sequence_multiscale_ensemble.py",
+      "sha256": "5901cc2f081d001b9b5cd474b97708cd5493247c6734158de3a560967f348e26",
+      "bytes": 6347
+    },
+    {
+      "path": "upstream/experiments/sequence_multiscale_ensemble.rst",
+      "sha256": "8e8c5f0ebee07b0c14f9114e6d18126ae9159fd6ce11795b1776c95212a234aa",
+      "bytes": 4712
+    },
+    {
+      "path": "upstream/experiments/target_scaling_flow.py",
+      "sha256": "4b7c450cf65feac733efb5a1041032a6fad122fe8ae274a8338b6ad44abe111c",
+      "bytes": 644
+    },
+    {
+      "path": "upstream/tests/test_aa_structural_coarse_condition.py",
+      "sha256": "06f0399c54660809e1c23eed90c26ad3b525b6d321203ca497dd5b16bf6c424f",
+      "bytes": 3152
+    },
+    {
+      "path": "upstream/tests/test_atlas_decoder_repair.py",
+      "sha256": "6c4cc6bfcf89648c927d545f5a49286629a2f2cfc50a8db72ed4cfe15485555c",
+      "bytes": 3907
+    },
+    {
+      "path": "upstream/tests/test_atlas_md_io.py",
+      "sha256": "6f08e7df551ad4c5f18e77160c69652bbf34e7caac4f5d51b656cd31646ccef6",
+      "bytes": 2174
+    },
+    {
+      "path": "upstream/tests/test_atlas_shared_frame.py",
+      "sha256": "0fc3b2a4fd8827859f8b0cc1d615bc5382fe6c9f1857bdbb799abbb58f1f5ed3",
+      "bytes": 1474
+    },
+    {
+      "path": "upstream/tests/test_author_codec_interface.py",
+      "sha256": "5bce493bfb5d0e3ca23688071eb5cbaabcaff6899958154a3004db26b25c6361",
+      "bytes": 2544
+    },
+    {
+      "path": "upstream/tests/test_block_centroid_transport_frames.py",
+      "sha256": "0bfe597c960982acc4a91bd00bfc72411032610cae6c0182d7fc8d9c79c0d92a",
+      "bytes": 1824
+    },
+    {
+      "path": "upstream/tests/test_block_local_frames.py",
+      "sha256": "e079156cc2239dd06448c0b75e7b8e09910cdfb0e871e2592abd58103829d6fd",
+      "bytes": 4762
+    },
+    {
+      "path": "upstream/tests/test_block_stable_frame_tokenizer.py",
+      "sha256": "053a56b472b81e52017434cb8327c2fad43f82106dbe73f8550db8ddf7f6d41a",
+      "bytes": 1406
+    },
+    {
+      "path": "upstream/tests/test_block_transport_frames.py",
+      "sha256": "63902a724091cc16455b2462bfd5897d6e8b3de3d33676e519ae008a23ca91ea",
+      "bytes": 2028
+    },
+    {
+      "path": "upstream/tests/test_coarse_coverage_mechanism.py",
+      "sha256": "7c0fc78efa9cd562382cc17584f07e575517b7f5734ccece0a34596c044dca5f",
+      "bytes": 6052
+    },
+    {
+      "path": "upstream/tests/test_coarse_coverage_repair.py",
+      "sha256": "d4d8a3e27e1723d7ba3d652460a720ebabb0699b341106533b7ee680d4fee6fa",
+      "bytes": 6605
+    },
+    {
+      "path": "upstream/tests/test_coarse_few_target_flow.py",
+      "sha256": "b1a2dfd2afdd768c9cc938fc636ca10e72a76ebaca183af2a7ae3e7cc0f64226",
+      "bytes": 3992
+    },
+    {
+      "path": "upstream/tests/test_coarse_full_cohort_flow.py",
+      "sha256": "f5c6b96a638fd7cbef51141de77e39212bdb8930bcadfe98babc698ea1f3506d",
+      "bytes": 6779
+    },
+    {
+      "path": "upstream/tests/test_coarse_generation_diagnostic.py",
+      "sha256": "be6312e8cfc93fe9c2b8999e8a113ef3b325b52dea35e875d11e480a5b6fb6a1",
+      "bytes": 2988
+    },
+    {
+      "path": "upstream/tests/test_coarse_relative_geometry.py",
+      "sha256": "085d0d607fc296cfc4394f61575d3b88090129a3ad0e65724469be63130cf572",
+      "bytes": 6908
+    },
+    {
+      "path": "upstream/tests/test_coarse_target_scaling.py",
+      "sha256": "ff706e6e4e8c00e049b30e3d56d686510a007842efc1a1c1d5e2b9fc0a6ae4c0",
+      "bytes": 2628
+    },
+    {
+      "path": "upstream/tests/test_compact_training_trace.py",
+      "sha256": "f84703bc033abf16f560701d60cedb6b18478aad25cf061bbe33b0d227e133ae",
+      "bytes": 1484
+    },
+    {
+      "path": "upstream/tests/test_decoder_angle_adaptation.py",
+      "sha256": "e043c937601d1f845c1b1fd6bd6dd03aa762cde184e34d99e75fe2cc7cd430c7",
+      "bytes": 5312
+    },
+    {
+      "path": "upstream/tests/test_early_time_fine_flow.py",
+      "sha256": "f5ea133243973390cfc83ce41d74f358b05b1c47faaa17ad5a62b7689194b366",
+      "bytes": 2862
+    },
+    {
+      "path": "upstream/tests/test_explicit_coarse_fine_flow.py",
+      "sha256": "daaf023b9dd93f7d054d31c3e1b8a8b8131958d7122a6830fa71f91c428f5a7b",
+      "bytes": 3582
+    },
+    {
+      "path": "upstream/tests/test_few_target_flow.py",
+      "sha256": "ca496aa34de3167022b2422fc63d9a86ef59ef05d3be72b1f97dd36bcdc21d65",
+      "bytes": 1386
+    },
+    {
+      "path": "upstream/tests/test_fine_coarse_use.py",
+      "sha256": "379ca092f4b114007e24a6d75e93a45729cb523aceb5c1daf9d3e1accd6fbe60",
+      "bytes": 2290
+    },
+    {
+      "path": "upstream/tests/test_fine_geometry_flow.py",
+      "sha256": "72a8ae2d6027547f420fd11a95150f6b314382caa113345673b3a1355c4be705",
+      "bytes": 6251
+    },
+    {
+      "path": "upstream/tests/test_generator_curriculum.py",
+      "sha256": "f0110967fcedf675868cdbd466e7b8c4219156f43e44d2a28774a26fa3e41f6d",
+      "bytes": 2894
+    },
+    {
+      "path": "upstream/tests/test_hierarchical_ensemble_flow.py",
+      "sha256": "cae831fd4de9c5b361340a3fcfe22cd524e8dc39fe82e6733b4945c5088abee1",
+      "bytes": 5520
+    },
+    {
+      "path": "upstream/tests/test_joint_sequence_predictor.py",
+      "sha256": "fb44ac7d64f7917b29f51430e381d184e74c8fc34c13bef0da45f453e5770425",
+      "bytes": 4063
+    },
+    {
+      "path": "upstream/tests/test_latent_source_diagnostic.py",
+      "sha256": "5dbf6a2dc7e01394e0aaa49656d05dbee096554f8fe400ff723f42672c389744",
+      "bytes": 4288
+    },
+    {
+      "path": "upstream/tests/test_multiscale_flow_solver.py",
+      "sha256": "d6818ddcdb0c3f5002b03ab5892f61dd996dfcfa793ba8d48b671376fdee5959",
+      "bytes": 3257
+    },
+    {
+      "path": "upstream/tests/test_multisequence_atlas.py",
+      "sha256": "88413281ed49c7469cd92fd73a8f9bfe392b66eef91701efcdabe46c75e783a5",
+      "bytes": 3138
+    },
+    {
+      "path": "upstream/tests/test_multisequence_flow_data.py",
+      "sha256": "fe1b4a9dcdd23a95a0a7c9e6841573cb2835d2339acc9e0d8d1daa7ed2f7c680",
+      "bytes": 2239
+    },
+    {
+      "path": "upstream/tests/test_native_ensemble_metrics.py",
+      "sha256": "5016b76505ecac64d47bc79389f358001303d51102f03968989c59f8846c5563",
+      "bytes": 1857
+    },
+    {
+      "path": "upstream/tests/test_par_chirality_audit.py",
+      "sha256": "c2361b72d497abaacd8e1856ed6fb42c696a1b8ed0f594965127de0293c0e6f7",
+      "bytes": 1762
+    },
+    {
+      "path": "upstream/tests/test_par_coarse_backbone.py",
+      "sha256": "c09b02c8f8652cbd2f2e03c0be09cc10245053078566ad85ae187a05dd466451",
+      "bytes": 3092
+    },
+    {
+      "path": "upstream/tests/test_par_coarse_capacity.py",
+      "sha256": "a396ae7b71a828328953afe1bacce422d3f483331743463d7386b7fc9d7dcd5e",
+      "bytes": 4221
+    },
+    {
+      "path": "upstream/tests/test_par_coarse_training_fit.py",
+      "sha256": "f11fa3d3cadfc8d35b1c941e45daed82322da9ac410cf5675c4e8c762a733848",
+      "bytes": 2500
+    },
+    {
+      "path": "upstream/tests/test_par_coarse_transfer.py",
+      "sha256": "c9bc755f9e42ff34a159b01aa2f57bfb3365432bad7038dc5274560aef093c49",
+      "bytes": 5146
+    },
+    {
+      "path": "upstream/tests/test_par_signed_volume.py",
+      "sha256": "bfd6f03c8d5575b8f82241c811a7a9c1df1bde0f86c3953c1995fa1f43bc596d",
+      "bytes": 2301
+    },
+    {
+      "path": "upstream/tests/test_par_signed_volume_replication.py",
+      "sha256": "59a37e7665f0b8882060989bbe9ef710ba67aab1c5e4440dfc4b9dd2d206d2e3",
+      "bytes": 595
+    },
+    {
+      "path": "upstream/tests/test_par_two_protein_continuation.py",
+      "sha256": "e6d1fddabbf8254e17871129ff992cb2bc19d6c8654f70f509b335e32122e678",
+      "bytes": 1502
+    },
+    {
+      "path": "upstream/tests/test_par_two_protein_fit.py",
+      "sha256": "b69a13331e93bb6d810c709dca8b0e0c87bd666d3bedb774fc91a0947ba44b74",
+      "bytes": 1651
+    },
+    {
+      "path": "upstream/tests/test_sequence_feature_ensemble_flow.py",
+      "sha256": "8772fafd78eb718f43dffd4285dbc78ae83faf0719335ef45d77a0dd1b5432ad",
+      "bytes": 2953
+    },
+    {
+      "path": "upstream/tests/test_sequence_multiscale_ensemble.py",
+      "sha256": "bc28b6c54c9e6746bbbfc34aa7467a486af9eec1d9aab90991c9ae5356c382b3",
+      "bytes": 4773
+    },
+    {
+      "path": "upstream/tests/test_target_scaling_flow.py",
+      "sha256": "188516d5ee431f38b162d4ae012a1715edc3cbb6ba35d597948d743b37b6b3d3",
+      "bytes": 1300
+    },
+    {
+      "path": "upstream/scripts/aa_structural_coarse_condition.sbatch",
+      "sha256": "2353a4e45cd42a547d92c9cc497a685dacd7367a2a5cab7e33be37256ffef0b1",
+      "bytes": 954
+    },
+    {
+      "path": "upstream/scripts/atlas_decoder_repair.sbatch",
+      "sha256": "a98c4c4fbee051363bdff5e1b1b3bd4be1462d4dbd156e0434ddf871c1b3f3ee",
+      "bytes": 830
+    },
+    {
+      "path": "upstream/scripts/atlas_ensemble_flow.sbatch",
+      "sha256": "d8b9ef79d9e753ea10c149c92cbc74daf72135102de14e0f010db4163044e5f2",
+      "bytes": 701
+    },
+    {
+      "path": "upstream/scripts/atlas_md_confirmation.sbatch",
+      "sha256": "f8c48cba4e1d7061df35b30ad7052fec90f78dc9ecd5a21ada09adc33a61829a",
+      "bytes": 691
+    },
+    {
+      "path": "upstream/scripts/atlas_md_decomposition.sbatch",
+      "sha256": "22e5a8c6eea13eceae71f9c378ef5e491f8c5d918b4a34e091488df062501ba4",
+      "bytes": 490
+    },
+    {
+      "path": "upstream/scripts/atlas_md_reconstruction.sbatch",
+      "sha256": "11c86a042188ae5db9a9a5662e13db62c2d2a0223d32b96c714cfb0da1d90780",
+      "bytes": 482
+    },
+    {
+      "path": "upstream/scripts/atlas_shared_frame_flow.sbatch",
+      "sha256": "ead3acf76455d9745b4e291ef85687346e569d2befdc4709d7a544bfcfb13719",
+      "bytes": 715
+    },
+    {
+      "path": "upstream/scripts/author_codec_interface.sbatch",
+      "sha256": "f557be38581d3342bf4a2a944bae91f7fdd6768e8f8503ef289dbc4695830bac",
+      "bytes": 545
+    },
+    {
+      "path": "upstream/scripts/block_frame_full_pdb.sbatch",
+      "sha256": "c206dd799dea3865ded9a90aa32ca9a5d4125d16277c3f648533d888d62c6ae9",
+      "bytes": 818
+    },
+    {
+      "path": "upstream/scripts/block_frame_probe.sbatch",
+      "sha256": "2b03767e012d62ca46c7b5c654df2c3302f8d261270fdf084fb714ecb0b2adbc",
+      "bytes": 814
+    },
+    {
+      "path": "upstream/scripts/block_stable_frame_probe.sbatch",
+      "sha256": "1ea805cab8b3b13cb20086290a9dc4005704a8af3e4a8a37e5c30eee201d11b2",
+      "bytes": 850
+    },
+    {
+      "path": "upstream/scripts/coarse_coverage_mechanism.sbatch",
+      "sha256": "20eed47b9db4e0faaafa19ac4a822d03c8a9dd1ffbaf4bab005d7504d6e52d67",
+      "bytes": 722
+    },
+    {
+      "path": "upstream/scripts/coarse_coverage_repair.sbatch",
+      "sha256": "f1c5b96f24d1058017652604980dd4c0090d3ce11373c3b09336281cc1f2d12d",
+      "bytes": 832
+    },
+    {
+      "path": "upstream/scripts/coarse_few_targets.sbatch",
+      "sha256": "58bde736102e4532b6d061bd4bab1491d15da3a3617a2392c1b9b0cfa36a818e",
+      "bytes": 692
+    },
+    {
+      "path": "upstream/scripts/coarse_full_cohort.sbatch",
+      "sha256": "87c9f19f7bc95ca3e703ad5dc9a46143e9b61780143447ede2cc5a020fc0e13b",
+      "bytes": 793
+    },
+    {
+      "path": "upstream/scripts/coarse_generation_diagnostic.sbatch",
+      "sha256": "6751bf2c18a9a6f720436b2876af7e46a0ab16f13cbfc9c3e8c8a9a291ee3858",
+      "bytes": 718
+    },
+    {
+      "path": "upstream/scripts/coarse_relative_geometry.sbatch",
+      "sha256": "7b14a7e8234233e566fc611075ec4925d47f111f2b3a7e6001ec2a41270aad33",
+      "bytes": 958
+    },
+    {
+      "path": "upstream/scripts/coarse_target_scaling.sbatch",
+      "sha256": "d5846b0d45dfee40be278d0322c53377695ac0a16abac9a36fe7ece5fd011f4e",
+      "bytes": 817
+    },
+    {
+      "path": "upstream/scripts/decoder_angle_adaptation.sbatch",
+      "sha256": "ff4a02e2e3c6b35b0983b2177196b4a9c00f327f44c612d9568435f14be1d87f",
+      "bytes": 1176
+    },
+    {
+      "path": "upstream/scripts/early_time_fine_flow.sbatch",
+      "sha256": "47fec0ef139d89dbcd4d6630b0b1f1fc02ae46401c9698fc26f8858d3de48fd8",
+      "bytes": 911
+    },
+    {
+      "path": "upstream/scripts/explicit_coarse_fine.sbatch",
+      "sha256": "3a5d5ebbbaba6b3fae7a84a676fe9c322965dc128dd74b83030324eec03db9ab",
+      "bytes": 936
+    },
+    {
+      "path": "upstream/scripts/fine_coarse_condition_audit.sbatch",
+      "sha256": "2c385f74d5dfea0417bccad7ef201ac1e838ebf885e679aee981656f28f7243f",
+      "bytes": 711
+    },
+    {
+      "path": "upstream/scripts/fine_coarse_use.sbatch",
+      "sha256": "335d6e2970158f8af625525a5ba8a950d426146131dfb183c1576b277b3276a7",
+      "bytes": 902
+    },
+    {
+      "path": "upstream/scripts/fine_few_targets.sbatch",
+      "sha256": "9ae3a57c97246eb2d006a69ae0bbef840b0ca51ed27ca85c90f6aab3ff36bff5",
+      "bytes": 802
+    },
+    {
+      "path": "upstream/scripts/fine_geometry_flow.sbatch",
+      "sha256": "194b71a662353c8051d285e841e82e44eebe7e99a06f371b8df99e10a2ed23b2",
+      "bytes": 924
+    },
+    {
+      "path": "upstream/scripts/fine_latent_range.sbatch",
+      "sha256": "9f489c8dd27786ee5355c4fa360f4c1ea308ab93c9999f42c76719ac7c7bb4f5",
+      "bytes": 587
+    },
+    {
+      "path": "upstream/scripts/fine_single_structure.sbatch",
+      "sha256": "449c33f88b10713f3dc9bd6e16fd8a653ee6330603a14017a1b3939b1abb274d",
+      "bytes": 835
+    },
+    {
+      "path": "upstream/scripts/fine_state_coverage.sbatch",
+      "sha256": "fd73ad095beb8f65434535579d74566394ab4f3b3957315c9c34f9ddd4722aaf",
+      "bytes": 484
+    },
+    {
+      "path": "upstream/scripts/fine_target_scaling.sbatch",
+      "sha256": "b4f896b6d90a978b3e464a690cc5ae187a8671c67b69c62768045e30d636d58a",
+      "bytes": 834
+    },
+    {
+      "path": "upstream/scripts/fine_two_state.sbatch",
+      "sha256": "33be910430ded30b690d3001430decf478243b6c37d1ed9cd24e9a7a80a80786",
+      "bytes": 810
+    },
+    {
+      "path": "upstream/scripts/generator_curriculum.sbatch",
+      "sha256": "c1c5c1b78d5e0303989d7352ad89a769f18a7eedd0f7f4815d5b2f12f8c2477a",
+      "bytes": 867
+    },
+    {
+      "path": "upstream/scripts/hierarchical_ensemble_comparison.sbatch",
+      "sha256": "1c7b470d0c5f66a7d84545c786e992c04285ef78014ad9ce13efaf6925111075",
+      "bytes": 721
+    },
+    {
+      "path": "upstream/scripts/hierarchical_ensemble_cpu.sbatch",
+      "sha256": "6b05412df9c6a1583113a70416ddf8bcce9d4454d3d7c9a43e50eece4a17edbb",
+      "bytes": 838
+    },
+    {
+      "path": "upstream/scripts/hierarchical_ensemble_cpu_v2.sbatch",
+      "sha256": "3c8d769679c451d9c334e77f343bda0b162fcbc466b45896e07fc139acbe66ad",
+      "bytes": 953
+    },
+    {
+      "path": "upstream/scripts/hierarchical_ensemble_probe.sbatch",
+      "sha256": "4e5649298bb0034b5832bddb6999604739d80f86ae300ae2d9725185f95ed5ae",
+      "bytes": 564
+    },
+    {
+      "path": "upstream/scripts/latent_source_diagnostic.sbatch",
+      "sha256": "e3bacacda9fe6da7cf7c4cdb1321809261f1039918427d46d07db7c5f8e8aebf",
+      "bytes": 832
+    },
+    {
+      "path": "upstream/scripts/multiframe_coarse_context.sbatch",
+      "sha256": "a8a000ca30c29d044987b87ecdfb9e04c76c38bc992a6902fcf3db36d87a2f61",
+      "bytes": 840
+    },
+    {
+      "path": "upstream/scripts/multiframe_early_fine.sbatch",
+      "sha256": "23ed3b6d9eaa975134174e9b49aaa5549a05b0822dfb1d7d1214c6535973ee45",
+      "bytes": 820
+    },
+    {
+      "path": "upstream/scripts/multiframe_fine_convergence.sbatch",
+      "sha256": "4a7876f3b51324ef5d4dd9cf0e9594b63188a7af70580dd6d6cc1d6b9fc1b82a",
+      "bytes": 832
+    },
+    {
+      "path": "upstream/scripts/multiscale_solver_probe.sbatch",
+      "sha256": "99304f03bb67a6dcd02b8d0a5a9daaa7ea3c096965ef908306d10a2c3afb519f",
+      "bytes": 825
+    },
+    {
+      "path": "upstream/scripts/multisequence_atlas.sbatch",
+      "sha256": "0a968308f833e2227e3108a16627598ec57270d97de02b8149dbb06fa5fe5575",
+      "bytes": 676
+    },
+    {
+      "path": "upstream/scripts/multisequence_ensemble_flow.sbatch",
+      "sha256": "99ccdaed427cee3878bbdb6f6681d9f1f6cbbf3b3ecfebf371ef0db1c8911be5",
+      "bytes": 835
+    },
+    {
+      "path": "upstream/scripts/par_chirality_audit.sbatch",
+      "sha256": "2f4ba4e0772a370cc2d4cef234efdfbd3de0d4ec25bf6795aa2b02c3a9bf0a55",
+      "bytes": 666
+    },
+    {
+      "path": "upstream/scripts/par_coarse_backbone_preflight.sbatch",
+      "sha256": "fdf9c820e887777604d7db5b3c70e027f3d15bad87464fe56c23050090effdda",
+      "bytes": 584
+    },
+    {
+      "path": "upstream/scripts/par_coarse_capacity.sbatch",
+      "sha256": "8f2508344cce1bc2f895241333b538d11e130750ef6ae862c75e4463ea2b68b5",
+      "bytes": 1872
+    },
+    {
+      "path": "upstream/scripts/par_coarse_capacity_recover_v1.sbatch",
+      "sha256": "9f0c556f813b32cd9170c9c43ca34c8997384242dfdca95f7e61721e4b8dc7e3",
+      "bytes": 1514
+    },
+    {
+      "path": "upstream/scripts/par_coarse_training_fit.sbatch",
+      "sha256": "3fa0f0de0e91362295ee91d0a8d7317ecb17e8b389e130091272d66bdc611586",
+      "bytes": 1369
+    },
+    {
+      "path": "upstream/scripts/par_coarse_transfer.sbatch",
+      "sha256": "91457a0947babef09f5b59fcb93aaeaed2b1de306c26c3c7f0e15c19b433db49",
+      "bytes": 1242
+    },
+    {
+      "path": "upstream/scripts/par_signed_volume.sbatch",
+      "sha256": "efcd62b8bdc711e27d62904d06df0d921cec68ec33625c3a9c7848f1f2a4c65a",
+      "bytes": 1254
+    },
+    {
+      "path": "upstream/scripts/par_signed_volume_replication.sbatch",
+      "sha256": "4e453635e251d73510eecfdc183a04ab15e61dfff4804b93c65a47e7fbc09299",
+      "bytes": 1497
+    },
+    {
+      "path": "upstream/scripts/par_two_protein_continuation.sbatch",
+      "sha256": "9a356765ca90d358447c99dea19aa88f68cbf7ecfa20c10083d2f7ef7d257abf",
+      "bytes": 1663
+    },
+    {
+      "path": "upstream/scripts/par_two_protein_fit.sbatch",
+      "sha256": "dc6dd919eb19ce2ceb46d6f98922ecbd7d90d55a17c647643097fedf4c7d1e8e",
+      "bytes": 1618
+    },
+    {
+      "path": "upstream/scripts/sequence_condition_features.sbatch",
+      "sha256": "db94458160503381749549f2256b3638a73c65860dc8cb4d92c0ea9c6ac7bf45",
+      "bytes": 589
+    },
+    {
+      "path": "upstream/scripts/sequence_condition_features_compat.sbatch",
+      "sha256": "e3c2856a5136d487283fbacf71eed080b112a34c5e946737fd0ea6a713294f7c",
+      "bytes": 596
+    },
+    {
+      "path": "upstream/scripts/sequence_condition_probe.sbatch",
+      "sha256": "7b1c995133017bd569a8da07e052011b81b33d6d90261da2e9f49cb35050a9d0",
+      "bytes": 862
+    },
+    {
+      "path": "upstream/scripts/sequence_multiscale_ensemble.sbatch",
+      "sha256": "984ea03dee163b9ec9a90167508b50254c243226d56c24b05b5a3325fcfd2087",
+      "bytes": 919
+    }
+  ],
+  "scope": "Source-code synchronization only; originals and frozen experiment protocols remain unmodified."
+}

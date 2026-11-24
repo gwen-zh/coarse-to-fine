@@ -1,0 +1,209 @@
+{
+  "summary_date": "2026-11-24",
+  "timezone": "America/New_York",
+  "purpose": "User-authorized progress handoff; selected aggregates only, not raw experimental outputs.",
+  "current_status": {
+    "active_project_training_jobs": 0,
+    "new_architecture_experiment_submitted": false,
+    "latest_reviewed_study": "par_signed_volume_replication_v1",
+    "latest_reviewed_at_UTC": "2026-11-11T03:49:36.743658+00:00",
+    "stable_new_generator_upgrade_confirmed": false,
+    "overall_superiority_to_Hierarchical_ConfGen_established": false,
+    "default_replaced": false,
+    "legacy_pending_transfer_dependencies_are_not_active_training": true
+  },
+  "original_path_search": {
+    "source_study": "fine_search_confirmation_v1",
+    "proteins": 64,
+    "conformations": 512,
+    "samples_per_protein": 8,
+    "scope": "Fixed independent method-confirmation cohort screened against prior project sequences; not proven absent from ESM3 pretraining, not thermal-ensemble validation; now consumed.",
+    "gated_CN_outlier_rate_percent": {
+      "before": 9.500145948283645,
+      "after": 7.538086653601346,
+      "relative_reduction_percent": 20.65293844287494,
+      "independent_evidence": false
+    },
+    "ungated_angle_endpoints": {
+      "reference_ca_c_n_angle_mae_degrees": {
+        "before_degrees": 4.957501964631998,
+        "after_degrees": 4.808611664970262,
+        "paired_change_degrees": -0.148890299661736,
+        "nominal_bootstrap97_5": [
+          -0.18641661163242046,
+          -0.11436519863457306
+        ],
+        "used_for_candidate_acceptance": false
+      },
+      "reference_c_n_ca_angle_mae_degrees": {
+        "before_degrees": 5.03890096535026,
+        "after_degrees": 4.885861688526106,
+        "paired_change_degrees": -0.1530392768241548,
+        "nominal_bootstrap97_5": [
+          -0.19490561514959956,
+          -0.115572810420644
+        ],
+        "used_for_candidate_acceptance": false
+      }
+    },
+    "reference_CA_RMSD_A": {
+      "before": 3.2489086783848204,
+      "after": 3.2509573315221085
+    },
+    "sample_spread_A": {
+      "before": 3.191693704558065,
+      "after": 3.1954512746333976
+    },
+    "mean_edited_fraction": 0.014923722682394416,
+    "recorded_mean_generation_seconds": 6.031292583685399,
+    "recorded_mean_added_search_seconds": 20.761038242759582,
+    "limits": [
+      "C-N is gated; it is not independent confirmation.",
+      "The two prespecified ungated angle endpoints passed the declared multiple-comparison correction.",
+      "Reference RMSD and spread difference intervals cross zero; equivalence/noninferiority/physical coverage preservation are not established.",
+      "Targeted site selection superiority over random-site search is unconfirmed.",
+      "Runtime comparisons retain original hardware and measurement scope."
+    ]
+  },
+  "current_prototype": {
+    "coarse": "ceil(N/4) x 3 physical block CA means",
+    "fine": "N x 8 continuous local-frame latent, no VQ/snap in current generation path",
+    "sequence_condition": "Frozen ESM3 AA-only H[N,1536]",
+    "factorization": "p(C,F|AA)=p(C|AA)*p(F|C,AA)",
+    "decoder": "Own trained rigid N/CA/C decoder with exact block CA mean constraint; peptide validity not guaranteed",
+    "legacy_demo": "16D coarse + 1024 fine-token codebook; scripts/sample_generator.py still uses this older format",
+    "PAR_scope": "Coarse-transfer pilot only, not complete sequence-conditioned L/4 -> L/2 -> L PAR",
+    "train_MD_sequences": 5,
+    "train_MD_frames": 2264,
+    "static_PDB_training_proteins": 899
+  },
+  "PAR_training_pair": {
+    "targets": [
+      "1b2s_E",
+      "1ef1_D"
+    ],
+    "residues_each": 90,
+    "fixed_MD_frames_per_protein": 1,
+    "scope": "Repeatedly used TRAIN structures; proper block-center RMSD, not independent protein/full-chain/ensemble quality.",
+    "AA_vs_AA_blind_1024_same32": {
+      "AA_uniform_macro_coarse_RMSD_A": 6.047174475892319,
+      "AA_blind_uniform_macro_coarse_RMSD_A": 14.195149301897658
+    },
+    "continuation_4096_same32": {
+      "uniform_restart_macro_coarse_RMSD_A": 3.7461446762995827,
+      "both_targets_mean_within_2A": false
+    },
+    "native_flow_LoRA_matched64": {
+      "adapter_only_macro_coarse_RMSD_A": 3.3412786065853934,
+      "adapter_flow_LoRA_macro_coarse_RMSD_A": 3.3196750117867175,
+      "candidate_minus_control_A": -0.021603594798675907,
+      "negative_orthogonal_fit_counts": {
+        "adapter_only": 41,
+        "adapter_flow_lora": 41
+      },
+      "outputs_per_arm": 128
+    },
+    "target_audit": {
+      "draws_checked": 4096,
+      "reflected_targets_in_checked_path": 0,
+      "exact_reflection_blindness_proven": false
+    },
+    "signed_volume_replication": {
+      "status": "complete_reviewed_directional_seed_replication_failed_no_promotion",
+      "training_seed_meaning": "Different training Gaussian/time/rotation/self-conditioning draws from one common parameter and Adam initialization.",
+      "evaluation_noises_per_protein": 64,
+      "effects": {
+        "2026": {
+          "exploratory_anchor": true,
+          "control_macro_proper_RMSD_A": 3.8999551449466647,
+          "signed_volume_macro_proper_RMSD_A": 3.2179483706467424,
+          "candidate_minus_control_A": -0.6820067742999223
+        },
+        "2027": {
+          "exploratory_anchor": false,
+          "control_macro_proper_RMSD_A": 3.7267083789463507,
+          "signed_volume_macro_proper_RMSD_A": 3.198193239777119,
+          "candidate_minus_control_A": -0.5285151391692318
+        },
+        "2028": {
+          "exploratory_anchor": false,
+          "control_macro_proper_RMSD_A": 3.7042598735519894,
+          "signed_volume_macro_proper_RMSD_A": 3.965242083820481,
+          "candidate_minus_control_A": 0.2609822102684918
+        }
+      },
+      "both_new_seed_effects_negative": false,
+      "all_requested_outputs_retained_and_finite": 1280,
+      "independent_test_claim": false,
+      "objective_family_closed": true,
+      "seed2028_first_protein_decomposition": {
+        "mean_proper_change_A": 0.6261434676574599,
+        "mean_reflection_permitted_change_A": 0.07668899228753605,
+        "negative_to_positive": 1,
+        "positive_to_negative": 5,
+        "proper_change_from_parity_switching_samples_A": 0.5998115378944848,
+        "proper_change_from_other_samples_A": 0.026331929762975076,
+        "control_generated_volume_MSE": 0.22512869536876678,
+        "candidate_generated_volume_MSE": 0.2630726993083954,
+        "control_signature_amplitude_ratio": 0.9895735383033752,
+        "candidate_signature_amplitude_ratio": 0.9858887791633606
+      }
+    }
+  },
+  "next_step": {
+    "status": "proposed_not_submitted",
+    "hypothesis": "Chirality-sensitive residual velocity architecture under the original velocity MSE, versus parameter-matched control.",
+    "entry_conditions": [
+      "New namespace/protocol, no edits to frozen historical sources.",
+      "Proper-rotation toy checks, zero-init replay, real gradient and parameter-count preflight.",
+      "Fixed training seeds and bounded two-target learnability budget before any MD coverage expansion."
+    ],
+    "not_guaranteed": [
+      "Better handedness or model quality.",
+      "Preservation of ensemble probabilities."
+    ]
+  },
+  "local_source_records": [
+    {
+      "path": "artifacts/fine_search_confirmation_v1/analysis_summary.json",
+      "sha256": "ac79223f32b8be298205466d12f661b497ca0d8c77bbe92a74c76fd5efff84ee"
+    },
+    {
+      "path": "artifacts/fine_search_confirmation_v1/primary_confirmation.json",
+      "sha256": "65cce7621e67e238150a3d7e0c80d90e4d8e96f30f3ea1952152ae804d2dc7c3"
+    },
+    {
+      "path": "artifacts/fine_search_confirmation_v1/independent_backbone_quality.json",
+      "sha256": "2daadb7c542c86650da7ada514004a767ec4bc9604cb0f007554c5a9f2719065"
+    },
+    {
+      "path": "artifacts/par_two_protein_fit_v1/review.json",
+      "sha256": "9e160b35f4078b1ad9b3171259bfe36c41c44b9c93a89b935d2c68a3f602e8c1"
+    },
+    {
+      "path": "artifacts/par_two_protein_continuation_v1/review.json",
+      "sha256": "cd426c75583cb3fd7a152213cd1e884e70fba65847b9baafc68942c8d322e267"
+    },
+    {
+      "path": "artifacts/par_coarse_capacity_v1/review.json",
+      "sha256": "1928ab5e79f17b1fff93c7ee621bb5a07c40f7df8f6984aad8ca460405fd7ded"
+    },
+    {
+      "path": "artifacts/par_chirality_audit_v1/review.json",
+      "sha256": "d89812a29433cdfdd5bca792fd13ed68b6cdd884628ff2e620821c6d80df64ba"
+    },
+    {
+      "path": "artifacts/par_signed_volume_v1/review.json",
+      "sha256": "5bff605500c13f9aa6f4e71ed54cc6952eb3bcabb1cee9b106c46dfaede74e0c"
+    },
+    {
+      "path": "artifacts/par_signed_volume_replication_v1/review.json",
+      "sha256": "6d857d4ba8ed07f303958835c28cce3d347a2f8e9b9733b099f87166e1f1a606"
+    },
+    {
+      "path": "artifacts/par_signed_volume_replication_v1/failure_analysis.json",
+      "sha256": "faa7c2882a1e5ca3ffa9b2bc581857f95472c2f66837573b8f0e64c82fbc2a9d"
+    }
+  ],
+  "raw_coordinates_features_weights_protocols_uploaded": false
+}
