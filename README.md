@@ -2,7 +2,7 @@
 
 Project source and progress for teammates: structural encoders/decoders, codebooks, continuous coarse/fine generators, PAR coarse transfer, frozen-decoder feedback search, experiment drivers, tests, and analysis/plotting scripts. The folder layout is preserved so existing imports remain recognizable.
 
-**Status, November 24, 2026:** local geometry refinement on the original model has independent confirmation. The new multiscale generator remains a prototype; the latest signed-volume-loss replication improved one training seed and worsened another. No stable end-to-end superiority to the original model is established. No new training is currently running or submitted.
+**Status, November 24, 2026:** local geometry refinement on the original model has independent confirmation. The new multiscale generator remains a prototype; the signed-volume-loss replication improved one training seed and worsened another. No stable end-to-end superiority to the original model is established. A separate [matched chiral-velocity architecture study](docs/CHIRAL_VELOCITY_STUDY_2026-11-24.rst) is now underway (job 58007793); real-weight preflight passed, with no final quality result yet.
 
 Start with [the research status](docs/RESEARCH_STATUS.rst), [the Chinese progress and handoff](docs/PROGRESS_2026-11-24_ZH.rst), or [the aggregate results and provenance](docs/progress_2026-11-24.json).
 
@@ -67,6 +67,7 @@ The existing `scripts/demo_representation.py` and `scripts/sample_generator.py` 
 | `upstream/experiments/par_coarse_backbone.py` | Strict public PAR loading, AA conditioning and coarse sampling |
 | `upstream/experiments/par_coarse_capacity.py` | Native-flow LoRA capacity control and geometry diagnostics |
 | `upstream/experiments/par_signed_volume_replication.py` | Closed fixed-seed replication of signed-volume supervision |
+| `upstream/experiments/par_chiral_velocity.py` | New equal-parameter polar/axial velocity-residual control under original MSE |
 | `upstream/experiments/hierarchical_rigid_vq.py` | Structural encoder/decoder, EMA codebooks, rigid N/CA/C output |
 | `upstream/experiments/hierarchical_latent_contract.py` | Block pooling and exact center/offset composition |
 | `upstream/experiments/mixed_hierarchical_generator.py` | Earlier continuous coarse / masked fine-token generator |

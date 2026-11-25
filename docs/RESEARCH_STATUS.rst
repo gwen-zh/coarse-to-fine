@@ -7,12 +7,14 @@ and sequence-conditioned PAR transfer remain research prototypes. There is no
 confirmed end-to-end improvement over the published model, and no demonstrated
 improvement in thermodynamic ensemble fidelity.
 
-This update summarizes completed experiments; it does not announce a new run.
 The latest reviewed numerical experiment is the signed-volume replication
-reviewed on November 10 Eastern time / November 11 UTC. A live queue check on
-November 24 found no active project training. Old PAR-transfer evaluation/report
-jobs remain pending on failed or unresolved dependencies; they are not running
-experiments. No chirality-sensitive architecture experiment has been submitted.
+reviewed on November 10 Eastern time / November 11 UTC. The initial November 24
+progress snapshot found no active project training. Following the user's request
+to continue, a separate matched chiral-velocity architecture study was submitted
+as job 58007793 and started on n041. Five module tests and real-weight preflight
+passed; its protocol is frozen, with no final quality result yet. See
+CHIRAL_VELOCITY_STUDY_2026-11-24.rst. Old PAR-transfer evaluation/report jobs remain
+pending on failed or unresolved dependencies; they are not running experiments.
 
 Confirmed original-model result
 -------------------------------
@@ -148,15 +150,17 @@ The new model's coarse training RMSDs cannot be compared directly with the
 original-model search cohort's full-chain RMSDs. No overall superiority to
 Hierarchical ConfGen has been demonstrated.
 
-Next decision, not an active job
---------------------------------
+Current bounded follow-up
+--------------------------
 
-Specify a separate, bounded chirality-sensitive architecture test under the
-original velocity-MSE flow objective, with a parameter-matched control. Verify
-zero-initialization replay, proper-rotation behavior, parameter counts and real
-gradient paths before freezing a protocol. Report both fixed training targets
-and every prespecified training seed. A cross-product residual is a hypothesis,
-not a guaranteed fix or a guarantee of ensemble-distribution preservation.
+The separately frozen chirality-sensitive architecture test retains the original
+velocity-MSE flow objective: native, polar-residual and axial-residual arms, two
+fixed training-draw seeds, 1024 updates per run. Zero-initialization replay,
+proper-rotation behavior, equal residual parameter counts and actual gradient
+paths passed before protocol freeze. Report both fixed training targets and
+every prespecified seed. A cross-product residual remains a hypothesis, not a
+guaranteed fix or a guarantee of ensemble-distribution preservation. The setup
+is recorded in chiral_velocity_setup_2026-11-24.json; no result is promoted.
 
 Only after reliable training-pair fitting should a separately specified MD
 generalization/coverage study be expanded. Preserve paired seeds, fair compute,
@@ -167,7 +171,11 @@ Evidence and handoff
 --------------------
 
 * docs/PROGRESS_2026-11-24_ZH.rst: Chinese chronology and concrete next steps.
-* docs/progress_2026-11-24.json: selected aggregate numbers and source hashes.
+* docs/progress_2026-11-24.json: initial completed-experiment snapshot, selected
+  aggregate numbers and source hashes; its proposed-next-step status predates
+  the newly submitted follow-up.
+* docs/chiral_velocity_setup_2026-11-24.json: subsequent active-study setup,
+  preflight checks and frozen source hashes; no final quality result.
 * docs/PAR_REPRODUCTION.rst: pinned external code, dependencies and replay scope.
 * docs/source_sync_2026-11-24.json: exact newly synchronized source-file hashes.
 

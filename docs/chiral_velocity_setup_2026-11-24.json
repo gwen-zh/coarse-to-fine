@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-24",
+  "study": "par_chiral_velocity_v1",
+  "Slurm_job": "58007793",
+  "status": "training_running_preflight_passed_protocol_frozen",
+  "frozen_inputs": 88,
+  "protocol_sha256": "68d2c152e1bd4bcb13ffbaad5378c9603358afeb97bf1ad271336bf580d4c0c2",
+  "seeds": [
+    2029,
+    2030
+  ],
+  "arms": [
+    "native",
+    "polar",
+    "axial"
+  ],
+  "updates_per_run": 1024,
+  "training_runs": 6,
+  "objective": "Original native velocity MSE, no auxiliary chirality loss.",
+  "trainable_parameter_counts": {
+    "native": 513152,
+    "polar": 548358,
+    "axial": 548358
+  },
+  "residual_parameters_each": 35206,
+  "module_tests_passed": 5,
+  "real_weight_preflight": {
+    "zero_initial_samples_exact": true,
+    "paired_native_MSE_loss_exact": true,
+    "discarded_optimizer_updates": 6,
+    "both_residual_gradient_paths_nonzero": true,
+    "residual_parameter_counts_equal": true,
+    "residual_initial_parameters_equal": true
+  },
+  "training_scope": "Same two repeatedly used TRAIN structures, one fixed MD frame each, common parameter/Adam initialization; not independent test or ensemble-quality evidence.",
+  "sampling_plan": {
+    "fresh_keys_per_protein": 64,
+    "Euler_steps": 16,
+    "common_initial_outputs": 128,
+    "final_outputs": 768,
+    "total_requested_outputs": 896
+  },
+  "primary_directional_criterion": "Axial has lower proper coarse macro RMSD than BOTH polar and native controls, for BOTH fixed training-draw seeds.",
+  "default_promotion": false,
+  "quality_result_available": false,
+  "source_sha256": {
+    "upstream/experiments/par_chiral_velocity.py": "93b8608578235a3fc60aeb40d2b202d288f543a24dc45dc395c66a417056c801",
+    "upstream/experiments/run_par_chiral_velocity.py": "075c0e208247ddfcc7215399847f512fdfee8ec5f220dd1c72cabfab411afd25",
+    "upstream/tests/test_par_chiral_velocity.py": "a390457fa43c52e1ecdbebb85371fcb62649ab6e1214b90295576876ab6fb20c",
+    "upstream/scripts/par_chiral_velocity.sbatch": "500d9a3bbff3b515933d7f87fa6e70e3a1eb79b1fe015889f3e9bcbcf8635044"
+  },
+  "actual_updates_at_snapshot": [
+    {
+      "seed": 2029,
+      "arm": "native",
+      "updates": 32
+    },
+    {
+      "seed": 2029,
+      "arm": "polar",
+      "updates": 32
+    },
+    {
+      "seed": 2029,
+      "arm": "axial",
+      "updates": 32
+    },
+    {
+      "seed": 2030,
+      "arm": "native",
+      "updates": 96
+    },
+    {
+      "seed": 2030,
+      "arm": "polar",
+      "updates": 96
+    },
+    {
+      "seed": 2030,
+      "arm": "axial",
+      "updates": 96
+    }
+  ]
+}
