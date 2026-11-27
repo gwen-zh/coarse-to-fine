@@ -1,10 +1,14 @@
-Follow-up: matched chiral velocity residuals
-===========================================
+Fixed design: matched chiral velocity residuals
+=================================================
+
+Update 2026-11-26: all six runs completed and independent review passed. Both
+fixed seeds improve against both controls, while the 2 Å fitting target remains
+unmet. See CHIRAL_VELOCITY_RESULTS_2026-11-26.rst for the results and limits.
 
 2026-11-24: Slurm job 58007793 was submitted and started on n041. Five targeted
 module tests and actual-PAR-weight preflight passed. The protocol is frozen
-with 88 hashed inputs. This is a setup/progress update; no final quality result
-is available. The earlier signed-volume-loss family remains closed after its
+with 88 hashed inputs. The following is the original setup/progress snapshot.
+The earlier signed-volume-loss family remains closed after its
 failed fixed-seed replication.
 
 Question

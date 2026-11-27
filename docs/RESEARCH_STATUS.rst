@@ -1,4 +1,4 @@
-Research status — 2026-11-24
+Research status — 2026-11-26
 ============================
 
 The confirmed result is a weight-free, decoder-guided refinement method on the
@@ -7,13 +7,15 @@ and sequence-conditioned PAR transfer remain research prototypes. There is no
 confirmed end-to-end improvement over the published model, and no demonstrated
 improvement in thermodynamic ensemble fidelity.
 
-The latest reviewed numerical experiment is the signed-volume replication
-reviewed on November 10 Eastern time / November 11 UTC. The initial November 24
+The signed-volume replication failed its fixed criterion in the review on
+November 10 Eastern time / November 11 UTC. The initial November 24
 progress snapshot found no active project training. Following the user's request
 to continue, a separate matched chiral-velocity architecture study was submitted
-as job 58007793 and started on n041. Five module tests and real-weight preflight
-passed; its protocol is frozen, with no final quality result yet. See
-CHIRAL_VELOCITY_STUDY_2026-11-24.rst. Old PAR-transfer evaluation/report jobs remain
+as job 58007793 and started on n041. All six runs are now complete and reviewed:
+both fixed seeds pass the directional comparison against both controls. The
+training-pair fitting target remains unmet and defaults are unchanged. See
+CHIRAL_VELOCITY_RESULTS_2026-11-26.rst, the latest numerical review. No next
+training has been submitted. Old PAR-transfer evaluation/report jobs remain
 pending on failed or unresolved dependencies; they are not running experiments.
 
 Confirmed original-model result
@@ -150,8 +152,8 @@ The new model's coarse training RMSDs cannot be compared directly with the
 original-model search cohort's full-chain RMSDs. No overall superiority to
 Hierarchical ConfGen has been demonstrated.
 
-Current bounded follow-up
---------------------------
+Completed bounded follow-up
+---------------------------
 
 The separately frozen chirality-sensitive architecture test retains the original
 velocity-MSE flow objective: native, polar-residual and axial-residual arms, two
@@ -160,7 +162,13 @@ proper-rotation behavior, equal residual parameter counts and actual gradient
 paths passed before protocol freeze. Report both fixed training targets and
 every prespecified seed. A cross-product residual remains a hypothesis, not a
 guaranteed fix or a guarantee of ensemble-distribution preservation. The setup
-is recorded in chiral_velocity_setup_2026-11-24.json; no result is promoted.
+is recorded in chiral_velocity_setup_2026-11-24.json. The reviewed final native /
+polar / axial macro RMSDs are 3.35349 / 3.33431 / 3.19363 Å for seed 2029 and
+3.66227 / 3.58104 / 3.29638 Å for seed 2030. Axial improves 4.77% / 9.99% over
+native and 4.22% / 7.95% over polar. The directional criterion passes in both
+seeds, with benefits concentrated on one protein. Both proteins still miss the
+mean <= 2 Å fitting target; no default is promoted. All 896 outputs and 88 frozen
+inputs were independently checked. See CHIRAL_VELOCITY_RESULTS_2026-11-26.rst.
 
 Only after reliable training-pair fitting should a separately specified MD
 generalization/coverage study be expanded. Preserve paired seeds, fair compute,
@@ -175,7 +183,9 @@ Evidence and handoff
   aggregate numbers and source hashes; its proposed-next-step status predates
   the newly submitted follow-up.
 * docs/chiral_velocity_setup_2026-11-24.json: subsequent active-study setup,
-  preflight checks and frozen source hashes; no final quality result.
+  preflight checks and frozen source hashes, preserved as a dated setup snapshot.
+* docs/chiral_velocity_results_2026-11-26.json: reviewed final aggregate results,
+  scope, criterion, audit record and source hashes.
 * docs/PAR_REPRODUCTION.rst: pinned external code, dependencies and replay scope.
 * docs/source_sync_2026-11-24.json: exact newly synchronized source-file hashes.
 

@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-26",
+  "study": "par_chiral_velocity_v1",
+  "job": "58007793",
+  "status": "complete_reviewed_training_pair_directional_gain_2A_target_not_met_no_promotion",
+  "effects": {
+    "2029": {
+      "scores": {
+        "native": {
+          "per_protein": [
+            {
+              "protein": "1b2s_E",
+              "samples": 64,
+              "mean_proper_RMSD_A": 3.9064697869132576,
+              "mean_reflection_permitted_RMSD_A": 0.725390276674976,
+              "negative_orthogonal_fit_count": 22,
+              "mirror_like_count": 22,
+              "samples_within_2A": 42
+            },
+            {
+              "protein": "1ef1_D",
+              "samples": 64,
+              "mean_proper_RMSD_A": 2.8005060602320464,
+              "mean_reflection_permitted_RMSD_A": 1.2414311550302308,
+              "negative_orthogonal_fit_count": 19,
+              "mirror_like_count": 18,
+              "samples_within_2A": 45
+            }
+          ],
+          "macro_proper_RMSD_A": 3.353487923572652,
+          "both_targets_mean_within_2A": false
+        },
+        "polar": {
+          "per_protein": [
+            {
+              "protein": "1b2s_E",
+              "samples": 64,
+              "mean_proper_RMSD_A": 3.9045497802572418,
+              "mean_reflection_permitted_RMSD_A": 0.7231550122540341,
+              "negative_orthogonal_fit_count": 22,
+              "mirror_like_count": 22,
+              "samples_within_2A": 42
+            },
+            {
+              "protein": "1ef1_D",
+              "samples": 64,
+              "mean_proper_RMSD_A": 2.7640741626505125,
+              "mean_reflection_permitted_RMSD_A": 1.2163359651902181,
+              "negative_orthogonal_fit_count": 19,
+              "mirror_like_count": 18,
+              "samples_within_2A": 45
+            }
+          ],
+          "macro_proper_RMSD_A": 3.334311971453877,
+          "both_targets_mean_within_2A": false
+        },
+        "axial": {
+          "per_protein": [
+            {
+              "protein": "1b2s_E",
+              "samples": 64,
+              "mean_proper_RMSD_A": 3.903838628938103,
+              "mean_reflection_permitted_RMSD_A": 0.7209277229197764,
+              "negative_orthogonal_fit_count": 22,
+              "mirror_like_count": 22,
+              "samples_within_2A": 42
+            },
+            {
+              "protein": "1ef1_D",
+              "samples": 64,
+              "mean_proper_RMSD_A": 2.48341404688181,
+              "mean_reflection_permitted_RMSD_A": 1.2514578923075772,
+              "negative_orthogonal_fit_count": 16,
+              "mirror_like_count": 12,
+              "samples_within_2A": 48
+            }
+          ],
+          "macro_proper_RMSD_A": 3.193626337909956,
+          "both_targets_mean_within_2A": false
+        }
+      },
+      "axial_minus_native_A": -0.15986158566269593,
+      "axial_minus_polar_A": -0.14068563354392083,
+      "axial_relative_improvement_vs_native_percent": 4.767024343191517,
+      "axial_relative_improvement_vs_polar_percent": 4.219330247090736
+    },
+    "2030": {
+      "scores": {
+        "native": {
+          "per_protein": [
+            {
+              "protein": "1b2s_E",
+              "samples": 64,
+              "mean_proper_RMSD_A": 4.063498054538201,
+              "mean_reflection_permitted_RMSD_A": 0.7398467563552487,
+              "negative_orthogonal_fit_count": 23,
+              "mirror_like_count": 23,
+              "samples_within_2A": 41
+            },
+            {
+              "protein": "1ef1_D",
+              "samples": 64,
+              "mean_proper_RMSD_A": 3.261049092560711,
+              "mean_reflection_permitted_RMSD_A": 1.3813768243281557,
+              "negative_orthogonal_fit_count": 24,
+              "mirror_like_count": 20,
+              "samples_within_2A": 39
+            }
+          ],
+          "macro_proper_RMSD_A": 3.662273573549456,
+          "both_targets_mean_within_2A": false
+        },
+        "polar": {
+          "per_protein": [
+            {
+              "protein": "1b2s_E",
+              "samples": 64,
+              "mean_proper_RMSD_A": 4.058399215956348,
+              "mean_reflection_permitted_RMSD_A": 0.7351374847711507,
+              "negative_orthogonal_fit_count": 23,
+              "mirror_like_count": 23,
+              "samples_within_2A": 41
+            },
+            {
+              "protein": "1ef1_D",
+              "samples": 64,
+              "mean_proper_RMSD_A": 3.1036864129934036,
+              "mean_reflection_permitted_RMSD_A": 1.3148285838915459,
+              "negative_orthogonal_fit_count": 22,
+              "mirror_like_count": 21,
+              "samples_within_2A": 42
+            }
+          ],
+          "macro_proper_RMSD_A": 3.5810428144748756,
+          "both_targets_mean_within_2A": false
+        },
+        "axial": {
+          "per_protein": [
+            {
+              "protein": "1b2s_E",
+              "samples": 64,
+              "mean_proper_RMSD_A": 3.909795714349947,
+              "mean_reflection_permitted_RMSD_A": 0.7267500649258062,
+              "negative_orthogonal_fit_count": 22,
+              "mirror_like_count": 22,
+              "samples_within_2A": 42
+            },
+            {
+              "protein": "1ef1_D",
+              "samples": 64,
+              "mean_proper_RMSD_A": 2.6829632570355777,
+              "mean_reflection_permitted_RMSD_A": 1.3113905300676518,
+              "negative_orthogonal_fit_count": 18,
+              "mirror_like_count": 16,
+              "samples_within_2A": 46
+            }
+          ],
+          "macro_proper_RMSD_A": 3.2963794856927624,
+          "both_targets_mean_within_2A": false
+        }
+      },
+      "axial_minus_native_A": -0.3658940878566934,
+      "axial_minus_polar_A": -0.2846633287821132,
+      "axial_relative_improvement_vs_native_percent": 9.990899928922314,
+      "axial_relative_improvement_vs_polar_percent": 7.949174124126079
+    }
+  },
+  "directional_consistency_passed": true,
+  "all_per_protein_mean_within_2A": false,
+  "requested_outputs": 896,
+  "training_updates_total": 6144,
+  "audits": {
+    "all_frozen_input_hashes_verified": 88,
+    "all_requested_outputs_independently_aligned": 896,
+    "all_outputs_finite": true,
+    "all_training_events_paired": true,
+    "all_checkpoints_and_Adam_counters_verified": true,
+    "local_update_draw_offsets_and_uniform_time_verified": true,
+    "all_fixed_arms_and_seeds_retained": true,
+    "max_report_mean_alignment_difference_A": 5.3290705182007514e-14,
+    "figure_visually_inspected": true
+  },
+  "scope": "Two repeatedly used TRAIN proteins,one fixed90-residue MD frame each;common parameter/Adam warm start,training-draw seeds2029/2030. Proper coarse block-center RMSD,not a new-protein/full-chain/ensemble benchmark.",
+  "interpretation": [
+    "Both prespecified training-draw seeds satisfy axial<native AND axial<polar proper coarse macro RMSD. Relative improvement over native is4.77%/9.99%,and over parameter-matched polar4.22%/7.95%. This is directional repeatability on the training pair,not a statistical significance or generalization result.",
+    "Benefits concentrate on1ef1_D. The1b2s_E seed2029 gain is only0.00263A versus native. Do not describe the benefit as equally strong on all proteins.",
+    "Negative unconstrained orthogonal-fit counts change native41->axial38 of128 for2029 and47->40 for2030. Mirror-like outputs remain common,and both training proteins still miss the mean<=2A fitting target. Negative determinant alone is not an exact-mirror label.",
+    "All896 requested outputs are finite and retained. All6144 updates,noise/time/data events and Adam counters were checked. Same parameter/Adam warm start;only training random draws vary across seeds. No best-seed/step choice or adaptive extension.",
+    "The pure velocity objective and equal residual parameter counts support this bounded architecture comparison. Different vector bases and magnitudes do not isolate a unique causal chirality mechanism. Whole-model equivariance or thermal-distribution preservation is not established.",
+    "Close this fixed study without promoting defaults. Keep the failed signed-volume family closed. A next experiment must be separately specified;remaining mirror modes and training-pair fitting remain unresolved before any large MD expansion or independent-test claim."
+  ],
+  "model_default_replaced": false,
+  "independent_test_claim": false,
+  "next_experiment_submitted": false,
+  "protocol_sha256": "68d2c152e1bd4bcb13ffbaad5378c9603358afeb97bf1ad271336bf580d4c0c2",
+  "report_sha256": "e32468176fa441a2e2e9802dc5737bf54a8bbb006a0619546b3b87677a1d729f",
+  "local_review_sha256": "203f0aa0db0e287bfe5db58982d8cf79924b6643cbe31f9d5d344292402fdc89",
+  "source_sha256": {
+    "upstream/experiments/review_par_chiral_velocity.py": "f394624c8921b4ebdccab084f82d6ed7ee1f64cabe5adf05f43af1b2ef977dc5",
+    "upstream/experiments/plot_par_chiral_velocity_review.py": "f381b0521ef1bf90ea8ab113f8f4b9b327586a53bba2c1cb3055c6fdbe4abf39"
+  },
+  "raw_artifacts_or_figure_binaries_uploaded": false
+}

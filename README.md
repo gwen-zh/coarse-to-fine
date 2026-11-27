@@ -2,7 +2,7 @@
 
 Project source and progress for teammates: structural encoders/decoders, codebooks, continuous coarse/fine generators, PAR coarse transfer, frozen-decoder feedback search, experiment drivers, tests, and analysis/plotting scripts. The folder layout is preserved so existing imports remain recognizable.
 
-**Status, November 24, 2026:** local geometry refinement on the original model has independent confirmation. The new multiscale generator remains a prototype; the signed-volume-loss replication improved one training seed and worsened another. No stable end-to-end superiority to the original model is established. A separate [matched chiral-velocity architecture study](docs/CHIRAL_VELOCITY_STUDY_2026-11-24.rst) is now underway (job 58007793); real-weight preflight passed, with no final quality result yet.
+**Status, November 26, 2026:** local geometry refinement on the original model has independent confirmation. The new multiscale generator remains a prototype. The [completed chiral-velocity study](docs/CHIRAL_VELOCITY_RESULTS_2026-11-26.rst) improves coarse error by 4.77% / 9.99% against the native control and beats a parameter-matched polar control in both fixed training-draw seeds. This is a two-TRAIN-structure learnability result; the 2 Å fitting target remains unmet, with no independent generalization or overall superiority claim. All six runs are complete; no next training is submitted. The earlier signed-volume-loss replication remains unsuccessful.
 
 Start with [the research status](docs/RESEARCH_STATUS.rst), [the Chinese progress and handoff](docs/PROGRESS_2026-11-24_ZH.rst), or [the aggregate results and provenance](docs/progress_2026-11-24.json).
 
