@@ -1,13 +1,48 @@
 Next bounded study: self-conditioning and mirror branches
 ==========================================================
 
-Submitted on 2026-11-26 as Slurm job 58067270, running on n002. This is a
+Initially submitted on 2026-11-26 as Slurm job 58067270 on n002. This is a
 fixed-weight sampling/trajectory experiment, with ZERO optimizer updates.
 Four targeted tests and real-checkpoint preflight passed. The normal policy
 replays saved outputs with maximum absolute difference 4.10e-5 Å (tolerance
 1e-3 Å / 1e-5 relative). All parameters/buffers remain unchanged. The protocol
 is frozen with 121 hashed inputs and all six full-sampling workers have started.
 No quality result is claimed.
+
+Strict replay stop and recovery
+-------------------------------
+
+The first attempt stopped when the axial-2029 / 1ef1_D always-policy replay
+failed its original tolerance for 1 of 4416 coordinates; maximum absolute
+difference was 0.00118351 Å. All 2176 generated outputs and the failed log are
+preserved. No incomplete-attempt quality score was used to redesign the probe.
+
+Recovery job 58067466 is pinned to n041, the completed parent study's hardware.
+Before the full probe, it checks the previously failing field/protein against
+the frozen native sampler EXACTLY, and against saved parent outputs using the
+UNCHANGED 1e-3 Å / 1e-5 relative tolerance. It then reruns all six fields with
+the same checkpoints, keys, schedules, batch size, NFE and primary criterion.
+The frozen numeric functions are reused without changes. A documented I/O-root
+override writes into artifacts/par_self_condition_probe_recovery_v1. The copied
+protocol must be byte-identical to the original. Three workers run per wave
+with two Torch threads each; two waves fit n041's available memory.
+
+The n041 precheck has now passed: traced and native outputs are exactly equal,
+and maximum difference from the saved parent is 0 Å for the previously failing
+field/protein. Recovery sampling is running. Read-only independent audit job
+58067508 is submitted with dependency afterok:58067466; it checks all recovery
+outputs, the unchanged protocol and preservation of the original partial run.
+
+Raw first-attempt and recovery outputs are kept separately, not pooled as extra
+independent samples. The recovery manifest records original output hashes,
+the original log, wrapper hashes and allocation changes. A replay failure does
+not establish a quality effect or prove the hardware is its unique cause.
+
+* Recovery source: upstream/experiments/recover_par_self_condition_probe.py.
+* Recovery Slurm: upstream/scripts/par_self_condition_probe_recover.sbatch.
+* Recovery setup/provenance: docs/self_condition_probe_recovery_2026-11-26.json.
+* Later audit: upstream/experiments/review_par_self_condition_probe.py accepts
+  --root artifacts/par_self_condition_probe_recovery_v1 after full completion.
 
 Question
 --------

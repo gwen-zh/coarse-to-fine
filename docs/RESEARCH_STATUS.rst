@@ -15,9 +15,12 @@ as job 58007793 and started on n041. All six runs are now complete and reviewed:
 both fixed seeds pass the directional comparison against both controls. The
 training-pair fitting target remains unmet and defaults are unchanged. See
 CHIRAL_VELOCITY_RESULTS_2026-11-26.rst, the latest numerical review. The subsequent
-self-conditioning/trajectory probe is submitted as job 58067270, with all
-weights fixed and zero optimizer updates; see SELF_CONDITION_PROBE_2026-11-26.rst.
-It has no quality result yet. Old PAR-transfer evaluation/report jobs remain
+self-conditioning/trajectory probe keeps all weights fixed and uses zero
+optimizer updates. Its first job 58067270 stopped on a strict replay mismatch;
+same-protocol recovery job 58067466 is pinned to the parent hardware with no
+tolerance change and all original outputs preserved. See
+SELF_CONDITION_PROBE_2026-11-26.rst. It has no quality result yet.
+Old PAR-transfer evaluation/report jobs remain
 pending on failed or unresolved dependencies; they are not running experiments.
 
 Confirmed original-model result

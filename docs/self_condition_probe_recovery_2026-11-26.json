@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-26",
+  "original_job": "58067270",
+  "original_node": "n002",
+  "original_attempt_status": "stopped_on_strict_replay_gate",
+  "original_saved_outputs_preserved": 2176,
+  "original_failure": {
+    "field": "axial2029",
+    "protein": "1ef1_D",
+    "policy": "always",
+    "mismatched_elements": 1,
+    "elements": 4416,
+    "max_absolute_difference_A": 0.00118351
+  },
+  "recovery_job": "58067466",
+  "recovery_node": "n041",
+  "recovery_output_root": "artifacts/par_self_condition_probe_recovery_v1",
+  "original_protocol_sha256": "c5ee1db1367d42aae5b957d560765833edab35c0c461df65ff680ca64340d158",
+  "numeric_change": false,
+  "replay_tolerance_changed": false,
+  "noise_keys_or_policies_changed": false,
+  "weights_updated": false,
+  "recovery_allocation": "Parent node n041,6CPUs/16GiB;3workers per training-checkpoint seed in2waves,to fit available memory. Still2Torchthreads/worker.",
+  "recovery_precheck": "Tracer-versus-native exact comparison and unchanged parent replay tolerance on the previously failing field/protein before full6field rerun.",
+  "quality_outcomes_used_to_design_recovery": false,
+  "source_sha256": {
+    "upstream/experiments/recover_par_self_condition_probe.py": "45e502e291a0a2cc0019c2533025059bf304b34d1fa1e144a204f76cef44383e",
+    "upstream/scripts/par_self_condition_probe_recover.sbatch": "5de5fba6dd9b3743d89ee71c48d3a60363072f5e5ef1f01006875cba830d4974",
+    "upstream/experiments/review_par_self_condition_probe.py": "fa2d5195361220e535b3c1cb3a0fcb4f44e3f6f66e69f6f117f3b017cf78c9e4",
+    "upstream/scripts/par_self_condition_probe_audit.sbatch": "b5f5030fcd858f289fe0f85173f451d798898087f99a7bda4acf5205e401f014"
+  },
+  "raw_outputs_uploaded": false,
+  "quality_result_available": false,
+  "actual_precheck": {
+    "status": "passed",
+    "host": "n041",
+    "traced_vs_native_exact": true,
+    "native_vs_saved_parent_max_abs_A": 0.0,
+    "original_atol_A": 0.001,
+    "original_rtol": 1e-05,
+    "optimizer_updates": 0,
+    "weights_unchanged": true,
+    "reference_used_for_sampling": false
+  },
+  "status": "recovery_sampling_running",
+  "automatic_audit_job": "58067508",
+  "audit_dependency": "afterok:58067466"
+}
