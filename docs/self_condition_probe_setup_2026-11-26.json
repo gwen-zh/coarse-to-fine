@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-26",
+  "study": "par_self_condition_probe_v1",
+  "Slurm_job": "58067270",
+  "status": "sampling_running_real_weight_preflight_passed_protocol_frozen",
+  "optimizer_updates": 0,
+  "frozen_checkpoint_source": "par_chiral_velocity_v1 final1024 updates",
+  "training_draw_checkpoint_seeds": [
+    2029,
+    2030
+  ],
+  "fields": [
+    "native",
+    "polar",
+    "axial"
+  ],
+  "policies": [
+    "always",
+    "never",
+    "delayed_half"
+  ],
+  "samples_per_protein": 64,
+  "proteins": 2,
+  "flow_calls_per_sample": 16,
+  "expected_outputs": 2304,
+  "module_tests_passed": 4,
+  "primary": "Delayed-half versus always in AXIAL checkpoints;both existing seeds must improve proper coarse macro RMSD.",
+  "secondary": "Never-SC and native/polar model schedules;report every result,not select the best policy.",
+  "scope": "Repeatedly used TRAIN structures and SAME parent sampling noises. Fixed weights,not a new-protein or thermodynamic-ensemble test.",
+  "model_default_replaced": false,
+  "quality_result_available": false,
+  "source_sha256": {
+    "upstream/experiments/par_self_condition_probe.py": "a02b2dc7eb1263cf0beaea0a89b3c50726b37c9383c677c54a0955d4460a6785",
+    "upstream/experiments/run_par_self_condition_probe.py": "898e3eba931e0dc848b54c58433fa85b7f31fc20b25f8d800c88525e92ab81e8",
+    "upstream/tests/test_par_self_condition_probe.py": "5a060492640fce50174dc0cc06b8e09b813c69fb73c4b95a9bbeac0a0491e14b",
+    "upstream/scripts/par_self_condition_probe.sbatch": "ffe5618f0535f0beb4b8b08c06ee0c5fa5643faf32e56ea5fac48689904e2abe"
+  },
+  "frozen_inputs": 121,
+  "protocol_sha256": "c5ee1db1367d42aae5b957d560765833edab35c0c461df65ff680ca64340d158",
+  "real_weight_preflight": {
+    "status": "passed",
+    "native_replay_max_abs_A": 4.0978193283081055e-05,
+    "all_parameters_and_buffers_unchanged": true,
+    "optimizer_updates": 0
+  }
+}

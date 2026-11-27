@@ -14,8 +14,10 @@ to continue, a separate matched chiral-velocity architecture study was submitted
 as job 58007793 and started on n041. All six runs are now complete and reviewed:
 both fixed seeds pass the directional comparison against both controls. The
 training-pair fitting target remains unmet and defaults are unchanged. See
-CHIRAL_VELOCITY_RESULTS_2026-11-26.rst, the latest numerical review. No next
-training has been submitted. Old PAR-transfer evaluation/report jobs remain
+CHIRAL_VELOCITY_RESULTS_2026-11-26.rst, the latest numerical review. The subsequent
+self-conditioning/trajectory probe is submitted as job 58067270, with all
+weights fixed and zero optimizer updates; see SELF_CONDITION_PROBE_2026-11-26.rst.
+It has no quality result yet. Old PAR-transfer evaluation/report jobs remain
 pending on failed or unresolved dependencies; they are not running experiments.
 
 Confirmed original-model result

@@ -18,7 +18,9 @@ The prespecified directional criterion PASSED: axial < native AND axial < polar
 proper coarse macro RMSD for BOTH training-draw seeds. This is directional
 repeatability, not statistical significance or independent generalization.
 The two-protein per-target mean <= 2 Å fitting criterion remains unmet in every
-arm. Defaults were not promoted. No next experiment has been submitted.
+arm. Defaults were not promoted. At review completion no next experiment was
+submitted. The subsequent fixed-weight SC probe is documented separately in
+SELF_CONDITION_PROBE_2026-11-26.rst (job 58067270, zero optimizer updates).
 
 Primary results
 ---------------
